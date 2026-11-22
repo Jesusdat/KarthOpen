@@ -1,0 +1,16 @@
+{
+  "descripcion": "Ruinas (bioma 3D 'ruinas'): piedra vieja de los creadores, columnas caídas, cristal y hongos que brillan en la penumbra. Zonas: Ruinas profundas, Abismo cristalino, Santuario del Silencio, Cripta del Primer Eco, Corazón de los Antiguos y Templo hundido. Se generan con: blender --background --python propforge.py -- --karth <carpeta de Karth> --bioma ruinas",
+  "semilla": 3301,
+  "piezas": {"generador": "terreno", "color": "ruinas", "variantes": 3, "escala": 1.0},
+  "objetos": [
+    {"modelo": "roca_grande", "generador": "rocas", "tipo": "penasco", "color": "musgo", "variantes": 3, "escala": 0.28},
+    {"modelo": "ruina", "generador": "ruinas", "tipo": "muro", "color": "musgo", "variantes": 3, "escala": 0.3, "giro_libre": false, "params": {"largo": [3.0, 3.3], "alto": [3.0, 4.0]}},
+    {"modelo": "columna", "generador": "ruinas", "tipo": "columna", "color": "musgo", "variantes": 3, "escala": 0.3},
+    {"modelo": "columna_caida", "generador": "ruinas", "tipo": "columna_caida", "color": "gris", "variantes": 2, "escala": 0.3},
+    {"modelo": "deco_escombros", "generador": "ruinas", "tipo": "escombros", "color": "gris", "variantes": 3, "escala": 0.35},
+    {"modelo": "deco_cristales", "generador": "cristales", "tipo": "racimo", "color": "amatista", "variantes": 3, "escala": 0.8, "params": {"roca": 0.0, "cristales": [5, 9], "alto": [0.5, 0.9], "grosor": [0.06, 0.11], "inclinacion": [5, 40]}},
+    {"modelo": "deco_hongos", "generador": "hongos", "tipo": "grupo", "color": "brillante", "variantes": 3, "escala": 1.0},
+    {"modelo": "deco_piedras", "generador": "hierba", "tipo": "piedritas", "color": "ceniza", "variantes": 3, "escala": 1.6},
+    {"modelo": "hierba", "generador": "hierba", "tipo": "mata", "color": "verde", "variantes": 2, "escala": 0.7}
+  ]
+}

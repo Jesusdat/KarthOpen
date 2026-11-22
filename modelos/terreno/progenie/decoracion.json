@@ -1,0 +1,14 @@
+{
+  "hierba": {"densidad": 0.3, "distancia": 22.0, "escala": [0.6, 1.0]},
+  "relieve": {"lomas": 0.35, "tamano": 5.0, "borde": 0.2, "bajo": [0.6, 0.68, 0.55], "alto": [1.1, 1.25, 1.0]},
+  "decorar": {"radio_grupo": 2.5, "objetos": [
+      {"modelo": "nido", "por_100": 0.5, "grupos": true},
+      {"modelo": "capullo", "por_100": 0.4, "grupos": true},
+      {"modelo": "tentaculos", "por_100": 0.5, "grupos": true},
+      {"modelo": "deco_masa", "por_100": 1.0, "grupos": true},
+      {"modelo": "deco_hongos", "por_100": 1.5, "grupos": true},
+      {"modelo": "deco_cristales", "por_100": 0.6, "grupos": true},
+      {"modelo": "deco_huesos", "por_100": 0.8},
+      {"modelo": "deco_piedras", "por_100": 1.0}
+  ]}
+}

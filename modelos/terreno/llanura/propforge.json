@@ -1,0 +1,15 @@
+{
+  "descripcion": "Llanuras de ceniza (bioma 3D 'llanura'): tierra quemada con árboles calcinados, troncos caídos y roca volcánica. Se generan con: blender --background --python propforge.py -- --karth <carpeta de Karth> --bioma llanura",
+  "semilla": 4271,
+  "piezas": {"generador": "terreno", "color": "llanura", "variantes": 3, "escala": 1.0},
+  "objetos": [
+    {"modelo": "arbol_muerto", "generador": "arboles", "tipo": "seco", "color": "quemado", "variantes": 4, "escala": 0.3},
+    {"modelo": "roca_grande", "generador": "rocas", "tipo": "penasco", "color": "volcanica", "variantes": 3, "escala": 0.28},
+    {"modelo": "tronco_caido", "generador": "troncos", "tipo": "caido", "color": "quemado", "variantes": 3, "escala": 0.3},
+    {"modelo": "deco_matorral", "generador": "arboles", "tipo": "arbusto", "color": "otono", "variantes": 3, "escala": 0.3},
+    {"modelo": "deco_piedras", "generador": "hierba", "tipo": "piedritas", "color": "ceniza", "variantes": 3, "escala": 1.6},
+    {"modelo": "deco_tocon", "generador": "troncos", "tipo": "tocon", "color": "quemado", "variantes": 2, "escala": 0.45},
+    {"modelo": "deco_escombros", "generador": "ruinas", "tipo": "escombros", "color": "ceniza", "variantes": 2, "escala": 0.35},
+    {"modelo": "hierba", "generador": "hierba", "tipo": "mata", "color": "ceniza", "variantes": 3, "escala": 0.9}
+  ]
+}

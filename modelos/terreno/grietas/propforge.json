@@ -1,0 +1,94 @@
+{
+  "descripcion": "Las Grietas (bioma 3D 'grietas'): roca partida con vetas de cristal que canta y restos de la expedición colona. Se generan con: blender --background --python propforge.py -- --karth <carpeta de Karth> --bioma grietas",
+  "semilla": 6113,
+  "piezas": {"generador": "terreno", "color": "grietas", "variantes": 3, "escala": 1.0},
+  "objetos": [
+    {
+      "modelo": "roca_grande",
+      "generador": "rocas",
+      "tipo": "penasco",
+      "color": "gris",
+      "variantes": 3,
+      "escala": 0.3
+    },
+    {
+      "modelo": "cristal_grande",
+      "generador": "cristales",
+      "tipo": "veta",
+      "color": "cuarzo",
+      "variantes": 3,
+      "escala": 0.9
+    },
+    {
+      "modelo": "estacas",
+      "generador": "cercas",
+      "tipo": "estacas",
+      "color": "vieja",
+      "variantes": 2,
+      "escala": 0.5,
+      "giro_libre": false,
+      "params": {
+        "estacas": [
+          5,
+          6
+        ],
+        "separacion": 0.36,
+        "alto": [
+          1.6,
+          2.2
+        ]
+      }
+    },
+    {
+      "modelo": "deco_cristales",
+      "generador": "cristales",
+      "tipo": "racimo",
+      "color": "cuarzo",
+      "variantes": 3,
+      "escala": 0.8,
+      "params": {
+        "roca": 0.0,
+        "cristales": [
+          5,
+          9
+        ],
+        "alto": [
+          0.5,
+          0.9
+        ],
+        "grosor": [
+          0.06,
+          0.11
+        ],
+        "inclinacion": [
+          5,
+          40
+        ]
+      }
+    },
+    {
+      "modelo": "deco_piedras",
+      "generador": "hierba",
+      "tipo": "piedritas",
+      "color": "verde",
+      "variantes": 3,
+      "escala": 1.6
+    },
+    {
+      "modelo": "deco_escombros",
+      "generador": "ruinas",
+      "tipo": "escombros",
+      "color": "gris",
+      "variantes": 2,
+      "escala": 0.35
+    },
+    {
+      "modelo": "hierba",
+      "generador": "hierba",
+      "tipo": "mata",
+      "color": "seco",
+      "variantes": 2,
+      "escala": 0.8
+    }
+  ]
+}

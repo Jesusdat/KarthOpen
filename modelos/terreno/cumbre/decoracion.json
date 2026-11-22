@@ -1,0 +1,11 @@
+{
+  "relieve": {"lomas": 0.4, "tamano": 7.0, "borde": 0.25, "bajo": [0.6, 0.52, 0.5], "alto": [1.25, 1.15, 1.05]},
+  "decorar": {"radio_grupo": 2.5, "objetos": [
+      {"modelo": "roca_grande", "por_100": 0.5},
+      {"modelo": "cristal_grande", "por_100": 0.4, "grupos": true},
+      {"modelo": "arbol_muerto", "por_100": 0.4, "grupos": true},
+      {"modelo": "deco_cristales", "por_100": 1.0, "grupos": true},
+      {"modelo": "deco_huesos", "por_100": 0.8},
+      {"modelo": "deco_piedras", "por_100": 1.6}
+  ]}
+}

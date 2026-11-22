@@ -1,0 +1,17 @@
+{
+  "descripcion": "Colonia y Línea colona (bioma 3D 'colonia'): concreto colono, escombros, contenedores, barriles, cajas, vallas y antenas, con muros de piedra labrada en lugar de roca (generador muros). Zonas: Colonia de Karth, Restos de la expedición, Torre de comunicaciones, Fortín humano, Refinería humana, Cuartel general y Fortaleza humana. Se generan con: blender --background --python propforge.py -- --karth <carpeta de Karth> --bioma colonia (solo los muros: --solo-piezas)",
+  "semilla": 1103,
+  "piezas": {"generador": "muros", "tipo": "labrada", "color": "colonia", "variantes": 3, "escala": 1.0},
+  "objetos": [
+    {"modelo": "contenedor", "generador": "colonos", "tipo": "contenedor", "color": "colonia", "variantes": 3, "escala": 0.17, "giro_libre": false},
+    {"modelo": "barriles", "generador": "colonos", "tipo": "barriles", "color": "colonia", "variantes": 3, "escala": 0.5},
+    {"modelo": "cajas", "generador": "colonos", "tipo": "cajas", "color": "colonia", "variantes": 3, "escala": 0.5},
+    {"modelo": "antena", "generador": "colonos", "tipo": "antena", "color": "abandonado", "variantes": 2, "escala": 0.3},
+    {"modelo": "valla", "generador": "colonos", "tipo": "valla", "color": "colonia", "variantes": 3, "escala": 0.45, "giro_libre": false, "params": {"paneles": [1, 1]}},
+    {"modelo": "deco_escombros", "generador": "ruinas", "tipo": "escombros", "color": "gris", "variantes": 3, "escala": 0.35},
+    {"modelo": "deco_cristales", "generador": "cristales", "tipo": "racimo", "color": "cuarzo", "variantes": 3, "escala": 0.8, "params": {"roca": 0.0, "cristales": [5, 9], "alto": [0.5, 0.9], "grosor": [0.06, 0.11], "inclinacion": [5, 40]}},
+    {"modelo": "deco_huesos", "generador": "huesos", "tipo": "sueltos", "color": "ceniza", "variantes": 3, "escala": 0.9},
+    {"modelo": "deco_piedras", "generador": "hierba", "tipo": "piedritas", "color": "ceniza", "variantes": 3, "escala": 1.6},
+    {"modelo": "hierba", "generador": "hierba", "tipo": "mata", "color": "seco", "variantes": 2, "escala": 0.8}
+  ]
+}

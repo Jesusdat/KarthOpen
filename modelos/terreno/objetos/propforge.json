@@ -1,0 +1,110 @@
+{
+  "descripcion": "Modelos de PropForge para TODAS las zonas (carpeta general). Reemplazan en 3D a los adornos de cubitos de la capa de decoración (piedras, hongos, cristales, huesos) en las zonas cuyo bioma no trae los suyos. Se generan con: blender --background --python propforge.py -- --karth <carpeta de Karth> --bioma objetos Los modelos oficio_* son los puntos de los oficios (oficios.gd): activo y gastado (minada, cosechado, excavado), con la misma semilla.",
+  "semilla": 3313,
+  "objetos": [
+    {
+      "modelo": "deco_piedras",
+      "generador": "hierba",
+      "tipo": "piedritas",
+      "color": "verde",
+      "variantes": 3,
+      "escala": 1.6
+    },
+    {
+      "modelo": "deco_hongos",
+      "generador": "hongos",
+      "tipo": "grupo",
+      "color": "brillante",
+      "variantes": 3,
+      "escala": 1.0
+    },
+    {
+      "modelo": "deco_cristales",
+      "generador": "cristales",
+      "tipo": "racimo",
+      "color": "cian",
+      "variantes": 3,
+      "escala": 0.8,
+      "params": {
+        "roca": 0.0,
+        "cristales": [
+          5,
+          9
+        ],
+        "alto": [
+          0.5,
+          0.9
+        ],
+        "grosor": [
+          0.06,
+          0.11
+        ],
+        "inclinacion": [
+          5,
+          40
+        ]
+      }
+    },
+    {
+      "modelo": "deco_huesos",
+      "generador": "huesos",
+      "tipo": "sueltos",
+      "color": "viejo",
+      "variantes": 3,
+      "escala": 0.9
+    },
+    {
+      "modelo": "oficio_veta",
+      "generador": "rocas",
+      "tipo": "veta",
+      "color": "veta",
+      "variantes": 3,
+      "escala": 0.6,
+      "estados": [
+        "minada"
+      ]
+    },
+    {
+      "modelo": "oficio_nido",
+      "generador": "hongos",
+      "tipo": "gordo",
+      "color": "progenie",
+      "variantes": 3,
+      "escala": 1.1,
+      "estados": [
+        "cosechado"
+      ]
+    },
+    {
+      "modelo": "oficio_ruina",
+      "generador": "antiguos",
+      "tipo": "monolito",
+      "color": "antiguo",
+      "variantes": 3,
+      "escala": 0.4,
+      "estados": [
+        "excavado"
+      ],
+      "params": {
+        "alto": [
+          1.6,
+          2.1
+        ],
+        "ancho": [
+          0.9,
+          1.2
+        ],
+        "grosor": [
+          0.3,
+          0.4
+        ],
+        "partido": 0.0,
+        "inclinacion": 8,
+        "runas": [
+          6,
+          10
+        ]
+      }
+    }
+  ]
+}

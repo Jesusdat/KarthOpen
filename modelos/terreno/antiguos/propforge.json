@@ -1,0 +1,17 @@
+{
+  "descripcion": "Antiguos (bioma 3D 'antiguos'): piedra clara con musgo, cristal que brilla, obeliscos, monolitos y arcos con runas, y árboles vivos. Zonas: Santuario Velado, Cauce de luz, Claro susurrante, Jardín cristalino y Campamento invasor. Se generan con: blender --background --python propforge.py -- --karth <carpeta de Karth> --bioma antiguos",
+  "semilla": 9409,
+  "piezas": {"generador": "terreno", "color": "antiguos", "variantes": 3, "escala": 1.0},
+  "objetos": [
+    {"modelo": "obelisco", "generador": "antiguos", "tipo": "obelisco", "color": "antiguo", "variantes": 3, "escala": 0.3},
+    {"modelo": "monolito", "generador": "antiguos", "tipo": "monolito", "color": "erosionado", "variantes": 3, "escala": 0.35},
+    {"modelo": "arco", "generador": "antiguos", "tipo": "arco", "color": "antiguo", "variantes": 2, "escala": 0.3, "giro_libre": false},
+    {"modelo": "arbol", "generador": "arboles", "tipo": "roble", "color": "verano", "variantes": 3, "escala": 0.17},
+    {"modelo": "roca_grande", "generador": "rocas", "tipo": "penasco", "color": "musgo", "variantes": 3, "escala": 0.28},
+    {"modelo": "deco_cristales", "generador": "cristales", "tipo": "racimo", "color": "cian", "variantes": 3, "escala": 0.8, "params": {"roca": 0.0, "cristales": [5, 9], "alto": [0.5, 0.9], "grosor": [0.06, 0.11], "inclinacion": [5, 40]}},
+    {"modelo": "deco_hongos", "generador": "hongos", "tipo": "grupo", "color": "brillante", "variantes": 3, "escala": 1.0},
+    {"modelo": "deco_huesos", "generador": "huesos", "tipo": "sueltos", "color": "viejo", "variantes": 3, "escala": 0.9},
+    {"modelo": "deco_piedras", "generador": "hierba", "tipo": "piedritas", "color": "verde", "variantes": 3, "escala": 1.6},
+    {"modelo": "hierba", "generador": "hierba", "tipo": "mata", "color": "verde", "variantes": 3, "escala": 0.85}
+  ]
+}

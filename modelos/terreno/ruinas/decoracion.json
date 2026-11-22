@@ -1,0 +1,13 @@
+{
+  "hierba": {"densidad": 0.25, "distancia": 22.0, "escala": [0.6, 1.0]},
+  "relieve": {"lomas": 0.25, "tamano": 6.0, "borde": 0.15, "terrazas": 0.1, "bajo": [0.72, 0.76, 0.8], "alto": [1.18, 1.2, 1.16]},
+  "decorar": {"radio_grupo": 2.5, "objetos": [
+      {"modelo": "columna", "por_100": 1.0, "grupos": true},
+      {"modelo": "columna_caida", "por_100": 0.5},
+      {"modelo": "roca_grande", "por_100": 0.35},
+      {"modelo": "deco_escombros", "por_100": 1.7, "grupos": true},
+      {"modelo": "deco_cristales", "por_100": 1.0, "grupos": true},
+      {"modelo": "deco_hongos", "por_100": 0.9, "grupos": true},
+      {"modelo": "deco_piedras", "por_100": 1.4}
+  ]}
+}

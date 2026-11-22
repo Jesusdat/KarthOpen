@@ -1,0 +1,14 @@
+{
+  "hierba": {"densidad": 0.25, "distancia": 22.0, "escala": [0.6, 1.0]},
+  "relieve": {"lomas": 0.15, "tamano": 10.0, "borde": 0.1, "bajo": [0.8, 0.8, 0.82], "alto": [1.12, 1.12, 1.1]},
+  "decorar": {"radio_grupo": 2.5, "objetos": [
+      {"modelo": "contenedor", "por_100": 0.4, "grupos": true},
+      {"modelo": "barriles", "por_100": 0.6, "grupos": true},
+      {"modelo": "cajas", "por_100": 0.6, "grupos": true},
+      {"modelo": "antena", "por_100": 0.1},
+      {"modelo": "valla", "por_100": 0.4},
+      {"modelo": "deco_escombros", "por_100": 1.5, "grupos": true},
+      {"modelo": "deco_huesos", "por_100": 0.5},
+      {"modelo": "deco_piedras", "por_100": 1.2}
+  ]}
+}

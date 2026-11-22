@@ -1,0 +1,1048 @@
+{
+  "nombre": "colono",
+  "descripcion": "Colono: cuerpo base sin armadura para todos los colonos. La armadura, el casco, las botas y el arma son piezas de equipo (grupos) que se le ponen encima.",
+  "grupos_paleta": [
+    "grises",
+    "piel",
+    "pelo",
+    "tela",
+    "oxido"
+  ],
+  "escala_camara": 3.1,
+  "centro_y": 1.42,
+  "variantes": {
+    "soldado": [
+      "armadura",
+      "casco",
+      "botas",
+      "arma"
+    ]
+  },
+  "materiales": {
+    "piel": {
+      "color": "#b08064"
+    },
+    "pelo": {
+      "color": "#4e3a2c"
+    },
+    "ojo": {
+      "color": "#1e1614"
+    },
+    "camisa": {
+      "color": "#445c42"
+    },
+    "pantalon": {
+      "color": "#555452"
+    },
+    "calzado": {
+      "color": "#373537"
+    },
+    "blindaje": {
+      "color": "#6b8cb8",
+      "zona": "armadura"
+    },
+    "blindaje_oscuro": {
+      "color": "#4b6281",
+      "zona": "armadura",
+      "sombra": 0.7
+    },
+    "junta": {
+      "color": "#252320"
+    },
+    "acento": {
+      "color": "#e0761f",
+      "emision": "#5a2a08"
+    },
+    "arma": {
+      "color": "#373537"
+    },
+    "arma_clara": {
+      "color": "#6b6a6a"
+    }
+  },
+  "pivotes": [
+    {
+      "id": "cuerpo",
+      "pos": [
+        0,
+        1.45,
+        0
+      ]
+    },
+    {
+      "id": "torso",
+      "padre": "cuerpo",
+      "pos": [
+        0,
+        0.12,
+        0
+      ]
+    },
+    {
+      "id": "cabeza",
+      "padre": "torso",
+      "pos": [
+        0,
+        0.88,
+        0
+      ]
+    },
+    {
+      "id": "brazo_i",
+      "padre": "torso",
+      "pos": [
+        -0.46,
+        0.74,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        -5
+      ]
+    },
+    {
+      "id": "brazo_d",
+      "padre": "torso",
+      "pos": [
+        0.46,
+        0.74,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "id": "antebrazo_i",
+      "padre": "brazo_i",
+      "pos": [
+        0,
+        -0.56,
+        0
+      ],
+      "rot": [
+        -12,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "antebrazo_d",
+      "padre": "brazo_d",
+      "pos": [
+        0,
+        -0.56,
+        0
+      ],
+      "rot": [
+        -28,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pierna_i",
+      "padre": "cuerpo",
+      "pos": [
+        -0.18,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pierna_d",
+      "padre": "cuerpo",
+      "pos": [
+        0.18,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "espinilla_i",
+      "padre": "pierna_i",
+      "pos": [
+        0,
+        -0.7,
+        0
+      ]
+    },
+    {
+      "id": "espinilla_d",
+      "padre": "pierna_d",
+      "pos": [
+        0,
+        -0.7,
+        0
+      ]
+    }
+  ],
+  "piezas": [
+    {
+      "forma": "caja",
+      "mat": "pantalon",
+      "pivote": "cuerpo",
+      "tam": [
+        0.62,
+        0.3,
+        0.36
+      ],
+      "pos": [
+        0,
+        0.02,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "camisa",
+      "pivote": "torso",
+      "tam": [
+        0.7,
+        0.82,
+        0.38
+      ],
+      "pos": [
+        0,
+        0.42,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piel",
+      "pivote": "torso",
+      "tam": [
+        0.2,
+        0.14,
+        0.2
+      ],
+      "pos": [
+        0,
+        0.88,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "piel",
+      "pivote": "cabeza",
+      "radio": 0.28,
+      "pos": [
+        0,
+        0.3,
+        0
+      ],
+      "escala": [
+        1,
+        1.08,
+        1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "pelo",
+      "pivote": "cabeza",
+      "radio": 0.29,
+      "pos": [
+        0,
+        0.37,
+        -0.05
+      ],
+      "escala": [
+        1.03,
+        0.82,
+        1.03
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "ojo",
+      "pivote": "cabeza",
+      "tam": [
+        0.06,
+        0.07,
+        0.04
+      ],
+      "pos": [
+        -0.1,
+        0.3,
+        0.265
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "ojo",
+      "pivote": "cabeza",
+      "tam": [
+        0.06,
+        0.07,
+        0.04
+      ],
+      "pos": [
+        0.1,
+        0.3,
+        0.265
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "camisa",
+      "pivote": "brazo_i",
+      "tam": [
+        0.21,
+        0.6,
+        0.23
+      ],
+      "pos": [
+        0,
+        -0.26,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piel",
+      "pivote": "antebrazo_i",
+      "tam": [
+        0.17,
+        0.5,
+        0.19
+      ],
+      "pos": [
+        0,
+        -0.24,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "piel",
+      "pivote": "antebrazo_i",
+      "radio": 0.105,
+      "pos": [
+        0,
+        -0.54,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "pantalon",
+      "pivote": "pierna_i",
+      "tam": [
+        0.27,
+        0.74,
+        0.3
+      ],
+      "pos": [
+        0,
+        -0.35,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "pantalon",
+      "pivote": "espinilla_i",
+      "tam": [
+        0.23,
+        0.62,
+        0.26
+      ],
+      "pos": [
+        0,
+        -0.31,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "calzado",
+      "pivote": "espinilla_i",
+      "tam": [
+        0.25,
+        0.15,
+        0.42
+      ],
+      "pos": [
+        0,
+        -0.675,
+        0.07
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "camisa",
+      "pivote": "brazo_d",
+      "tam": [
+        0.21,
+        0.6,
+        0.23
+      ],
+      "pos": [
+        0,
+        -0.26,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piel",
+      "pivote": "antebrazo_d",
+      "tam": [
+        0.17,
+        0.5,
+        0.19
+      ],
+      "pos": [
+        0,
+        -0.24,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "piel",
+      "pivote": "antebrazo_d",
+      "radio": 0.105,
+      "pos": [
+        0,
+        -0.54,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "pantalon",
+      "pivote": "pierna_d",
+      "tam": [
+        0.27,
+        0.74,
+        0.3
+      ],
+      "pos": [
+        0,
+        -0.35,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "pantalon",
+      "pivote": "espinilla_d",
+      "tam": [
+        0.23,
+        0.62,
+        0.26
+      ],
+      "pos": [
+        0,
+        -0.31,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "calzado",
+      "pivote": "espinilla_d",
+      "tam": [
+        0.25,
+        0.15,
+        0.42
+      ],
+      "pos": [
+        0,
+        -0.675,
+        0.07
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje",
+      "pivote": "torso",
+      "tam": [
+        0.82,
+        0.6,
+        0.5
+      ],
+      "pos": [
+        0,
+        0.52,
+        0
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje_oscuro",
+      "pivote": "torso",
+      "tam": [
+        0.74,
+        0.24,
+        0.44
+      ],
+      "pos": [
+        0,
+        0.12,
+        0
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje_oscuro",
+      "pivote": "torso",
+      "tam": [
+        0.4,
+        0.26,
+        0.06
+      ],
+      "pos": [
+        0,
+        0.58,
+        0.27
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "caja",
+      "mat": "acento",
+      "pivote": "torso",
+      "tam": [
+        0.12,
+        0.07,
+        0.04
+      ],
+      "pos": [
+        0.2,
+        0.7,
+        0.27
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje_oscuro",
+      "pivote": "torso",
+      "tam": [
+        0.46,
+        0.5,
+        0.2
+      ],
+      "pos": [
+        0,
+        0.5,
+        -0.33
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "caja",
+      "mat": "acento",
+      "pivote": "torso",
+      "tam": [
+        0.1,
+        0.3,
+        0.04
+      ],
+      "pos": [
+        0,
+        0.5,
+        -0.44
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "caja",
+      "mat": "junta",
+      "pivote": "cuerpo",
+      "tam": [
+        0.68,
+        0.14,
+        0.42
+      ],
+      "pos": [
+        0,
+        0.1,
+        0
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "caja",
+      "mat": "acento",
+      "pivote": "cuerpo",
+      "tam": [
+        0.14,
+        0.1,
+        0.04
+      ],
+      "pos": [
+        0,
+        0.1,
+        0.22
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje",
+      "pivote": "brazo_i",
+      "tam": [
+        0.36,
+        0.24,
+        0.38
+      ],
+      "pos": [
+        -0.04,
+        0.0,
+        0
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje",
+      "pivote": "antebrazo_i",
+      "tam": [
+        0.22,
+        0.32,
+        0.24
+      ],
+      "pos": [
+        0,
+        -0.2,
+        0
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje",
+      "pivote": "pierna_i",
+      "tam": [
+        0.31,
+        0.42,
+        0.34
+      ],
+      "pos": [
+        0,
+        -0.3,
+        0.01
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje",
+      "pivote": "brazo_d",
+      "tam": [
+        0.36,
+        0.24,
+        0.38
+      ],
+      "pos": [
+        0.04,
+        0.0,
+        0
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje",
+      "pivote": "antebrazo_d",
+      "tam": [
+        0.22,
+        0.32,
+        0.24
+      ],
+      "pos": [
+        0,
+        -0.2,
+        0
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje",
+      "pivote": "pierna_d",
+      "tam": [
+        0.31,
+        0.42,
+        0.34
+      ],
+      "pos": [
+        0,
+        -0.3,
+        0.01
+      ],
+      "grupo": "armadura"
+    },
+    {
+      "forma": "esfera",
+      "mat": "blindaje",
+      "pivote": "cabeza",
+      "radio": 0.34,
+      "pos": [
+        0,
+        0.33,
+        0
+      ],
+      "escala": [
+        1,
+        1.02,
+        1.06
+      ],
+      "grupo": "casco"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje_oscuro",
+      "pivote": "cabeza",
+      "tam": [
+        0.5,
+        0.12,
+        0.5
+      ],
+      "pos": [
+        0,
+        0.12,
+        -0.02
+      ],
+      "grupo": "casco"
+    },
+    {
+      "forma": "caja",
+      "mat": "acento",
+      "pivote": "cabeza",
+      "tam": [
+        0.42,
+        0.11,
+        0.1
+      ],
+      "pos": [
+        0,
+        0.31,
+        0.3
+      ],
+      "grupo": "casco"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje",
+      "pivote": "espinilla_i",
+      "tam": [
+        0.29,
+        0.44,
+        0.32
+      ],
+      "pos": [
+        0,
+        -0.42,
+        0.0
+      ],
+      "grupo": "botas"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje_oscuro",
+      "pivote": "espinilla_i",
+      "tam": [
+        0.29,
+        0.17,
+        0.48
+      ],
+      "pos": [
+        0,
+        -0.67,
+        0.08
+      ],
+      "grupo": "botas"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje",
+      "pivote": "espinilla_d",
+      "tam": [
+        0.29,
+        0.44,
+        0.32
+      ],
+      "pos": [
+        0,
+        -0.42,
+        0.0
+      ],
+      "grupo": "botas"
+    },
+    {
+      "forma": "caja",
+      "mat": "blindaje_oscuro",
+      "pivote": "espinilla_d",
+      "tam": [
+        0.29,
+        0.17,
+        0.48
+      ],
+      "pos": [
+        0,
+        -0.67,
+        0.08
+      ],
+      "grupo": "botas"
+    },
+    {
+      "forma": "caja",
+      "mat": "arma",
+      "pivote": "antebrazo_d",
+      "tam": [
+        0.11,
+        0.86,
+        0.15
+      ],
+      "pos": [
+        0,
+        -0.74,
+        0.04
+      ],
+      "grupo": "arma"
+    },
+    {
+      "forma": "caja",
+      "mat": "arma_clara",
+      "pivote": "antebrazo_d",
+      "tam": [
+        0.07,
+        0.3,
+        0.07
+      ],
+      "pos": [
+        0,
+        -1.2,
+        0.04
+      ],
+      "grupo": "arma"
+    },
+    {
+      "forma": "caja",
+      "mat": "arma",
+      "pivote": "antebrazo_d",
+      "tam": [
+        0.09,
+        0.2,
+        0.22
+      ],
+      "pos": [
+        0,
+        -0.4,
+        -0.1
+      ],
+      "grupo": "arma"
+    },
+    {
+      "forma": "caja",
+      "mat": "acento",
+      "pivote": "antebrazo_d",
+      "tam": [
+        0.12,
+        0.06,
+        0.05
+      ],
+      "pos": [
+        0,
+        -0.9,
+        0.1
+      ],
+      "grupo": "arma"
+    }
+  ],
+  "animaciones": {
+    "quieto": {
+      "frames": 2,
+      "fps": 2,
+      "bucle": true,
+      "pistas": [
+        {
+          "pivote": "torso",
+          "prop": "pos_y",
+          "expr": "sin(ph)*0.012"
+        },
+        {
+          "pivote": "cabeza",
+          "prop": "rot_x",
+          "expr": "sin(ph)*1.5"
+        },
+        {
+          "pivote": "brazo_i",
+          "prop": "rot_z",
+          "expr": "-sin(ph)*1.5"
+        },
+        {
+          "pivote": "brazo_d",
+          "prop": "rot_z",
+          "expr": "sin(ph)*1.5"
+        }
+      ]
+    },
+    "caminar": {
+      "frames": 4,
+      "fps": 8,
+      "bucle": true,
+      "pistas": [
+        {
+          "pivote": "pierna_i",
+          "prop": "rot_x",
+          "expr": "-sin(ph)*25"
+        },
+        {
+          "pivote": "pierna_d",
+          "prop": "rot_x",
+          "expr": "sin(ph)*25"
+        },
+        {
+          "pivote": "espinilla_i",
+          "prop": "rot_x",
+          "expr": "max(0.0, cos(ph))*36"
+        },
+        {
+          "pivote": "espinilla_d",
+          "prop": "rot_x",
+          "expr": "max(0.0, -cos(ph))*36"
+        },
+        {
+          "pivote": "brazo_i",
+          "prop": "rot_x",
+          "expr": "sin(ph)*26"
+        },
+        {
+          "pivote": "brazo_d",
+          "prop": "rot_x",
+          "expr": "-sin(ph)*12"
+        },
+        {
+          "pivote": "antebrazo_i",
+          "prop": "rot_x",
+          "expr": "-max(0.0, -sin(ph))*18"
+        },
+        {
+          "pivote": "cuerpo",
+          "prop": "pos_y",
+          "expr": "abs(sin(ph))*0.05 - 0.03"
+        },
+        {
+          "pivote": "torso",
+          "prop": "rot_y",
+          "expr": "sin(ph)*7"
+        },
+        {
+          "pivote": "torso",
+          "prop": "rot_x",
+          "expr": "4.0"
+        }
+      ]
+    },
+    "atacar": {
+      "frames": 3,
+      "fps": 10,
+      "bucle": false,
+      "pistas": [
+        {
+          "pivote": "brazo_d",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -72,
+            -84
+          ]
+        },
+        {
+          "pivote": "antebrazo_d",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -22,
+            24
+          ]
+        },
+        {
+          "pivote": "brazo_i",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            18,
+            -58
+          ]
+        },
+        {
+          "pivote": "antebrazo_i",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -10,
+            -42
+          ]
+        },
+        {
+          "pivote": "brazo_i",
+          "prop": "rot_y",
+          "frames": [
+            0,
+            0,
+            34
+          ]
+        },
+        {
+          "pivote": "torso",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            13,
+            2
+          ]
+        },
+        {
+          "pivote": "torso",
+          "prop": "rot_y",
+          "frames": [
+            0,
+            -20,
+            -10
+          ]
+        },
+        {
+          "pivote": "pierna_i",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -16,
+            -8
+          ]
+        },
+        {
+          "pivote": "pierna_d",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            12,
+            6
+          ]
+        },
+        {
+          "pivote": "cuerpo",
+          "prop": "pos_y",
+          "frames": [
+            0,
+            -0.06,
+            -0.02
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "descripcion": "Cumbre de fuego (bioma 3D 'cumbre'): basalto negro con vetas de lava vieja, cristales de brasa, árboles calcinados y huesos en la ceniza. Zonas: Cumbre de fuego, Mirador estelar y Valle de brasas. Se generan con: blender --background --python propforge.py -- --karth <carpeta de Karth> --bioma cumbre",
+  "semilla": 8803,
+  "piezas": {"generador": "terreno", "color": "cumbre", "variantes": 3, "escala": 1.0},
+  "objetos": [
+    {"modelo": "roca_grande", "generador": "rocas", "tipo": "penasco", "color": "volcanica", "variantes": 3, "escala": 0.26},
+    {"modelo": "cristal_grande", "generador": "cristales", "tipo": "veta", "color": "brasa", "variantes": 3, "escala": 0.9},
+    {"modelo": "arbol_muerto", "generador": "arboles", "tipo": "seco", "color": "quemado", "variantes": 3, "escala": 0.3},
+    {"modelo": "deco_cristales", "generador": "cristales", "tipo": "racimo", "color": "brasa", "variantes": 3, "escala": 0.8, "params": {"roca": 0.0, "cristales": [5, 9], "alto": [0.5, 0.9], "grosor": [0.06, 0.11], "inclinacion": [5, 40]}},
+    {"modelo": "deco_huesos", "generador": "huesos", "tipo": "sueltos", "color": "ceniza", "variantes": 3, "escala": 0.9},
+    {"modelo": "deco_piedras", "generador": "hierba", "tipo": "piedritas", "color": "ceniza", "variantes": 3, "escala": 1.6}
+  ]
+}

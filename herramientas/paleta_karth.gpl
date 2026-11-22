@@ -1,0 +1,80 @@
+GIMP Palette
+Name: Karth
+Columns: 8
+#
+# Paleta oficial de Cenizas de Karth.
+# Las lineas "# grupo: nombre" separan los grupos; el script las usa con --grupos.
+#
+# grupo: contorno
+ 20  18  22	contorno
+# grupo: grises
+ 37  35  30	gris 1 (sombra)
+ 55  55  53	gris 2
+ 85  84  82	gris 3
+107 106 106	gris 4
+132 131 131	gris 5
+165 162 162	gris 6
+194 196 192	gris 7
+224 222 220	gris 8 (brillo)
+# grupo: oxido
+ 39   7   7	oxido 1
+ 96  34  25	oxido 2
+138  61  18	oxido 3
+174  85  45	oxido 4
+224 118  31	oxido 5 (ascua)
+# grupo: hueso
+ 90  68  20	hueso 1
+154 138 112	hueso 2
+216 204 176	hueso 3
+# grupo: suelo
+ 30  27  25	suelo 1
+ 42  38  36	suelo 2
+ 54  48  43	suelo 3
+ 82  73  64	suelo 4
+# grupo: enjambre
+ 26  14  42	quitina 1
+ 42  34  52	quitina 2
+ 58  42  72	quitina 3
+ 90  48  72	quitina 4
+ 90  66 112	quitina 5
+138  84 112	quitina 6
+# grupo: acido
+106 138  36	acido 1
+200 224  74	acido 2
+# grupo: violeta
+ 58  36 100	violeta 1
+ 90  58 138	violeta 2
+138 100 192	violeta 3
+200 168 240	violeta 4
+# grupo: cian
+ 26  70  82	cian 1
+ 42 106 122	cian 2
+ 74 150 168	cian 3
+111 211 224	cian 4
+232 252 255	cian 5
+# grupo: visor
+ 17 143  90	visor 1
+ 73 238 186	visor 2
+# grupo: oro
+138 100  32	oro 1
+224 168  48	oro 2
+255 216 106	oro 3
+# grupo: piel
+ 58  36  32	piel 1 (sombra)
+ 96  60  48	piel 2
+136  92  72	piel 3
+176 128 100	piel 4
+212 168 136	piel 5 (brillo)
+# grupo: pelo
+ 30  22  20	pelo 1
+ 52  38  32	pelo 2
+ 78  58  44	pelo 3
+108  82  62	pelo 4
+# grupo: tela
+ 30  44  36	tela 1
+ 46  66  50	tela 2
+ 68  92  66	tela 3
+ 98 122  88	tela 4
+# grupo: brillos
+255 250 220	destello
+255  90 176	rosa

@@ -1,0 +1,16 @@
+{
+  "descripcion": "Progenie (bioma 3D 'progenie'): roca tomada por la biomasa, hongos de la Progenie, nidos, capullos y tentáculos. Zonas: Cuevas de Nidal y El Criadero. Se generan con: blender --background --python propforge.py -- --karth <carpeta de Karth> --bioma progenie",
+  "semilla": 2207,
+  "piezas": {"generador": "terreno", "color": "progenie", "variantes": 3, "escala": 1.0},
+  "objetos": [
+    {"modelo": "nido", "generador": "progenie", "tipo": "nido", "color": "progenie", "variantes": 3, "escala": 0.45},
+    {"modelo": "capullo", "generador": "progenie", "tipo": "capullo", "color": "progenie", "variantes": 3, "escala": 0.45},
+    {"modelo": "tentaculos", "generador": "progenie", "tipo": "tentaculos", "color": "progenie", "variantes": 3, "escala": 0.45},
+    {"modelo": "deco_masa", "generador": "progenie", "tipo": "masa", "color": "progenie", "variantes": 3, "escala": 0.35},
+    {"modelo": "deco_hongos", "generador": "hongos", "tipo": "grupo", "color": "progenie", "variantes": 3, "escala": 1.0},
+    {"modelo": "deco_cristales", "generador": "cristales", "tipo": "racimo", "color": "esmeralda", "variantes": 3, "escala": 0.8, "params": {"roca": 0.0, "cristales": [5, 9], "alto": [0.5, 0.9], "grosor": [0.06, 0.11], "inclinacion": [5, 40]}},
+    {"modelo": "deco_huesos", "generador": "huesos", "tipo": "sueltos", "color": "viejo", "variantes": 3, "escala": 0.9},
+    {"modelo": "deco_piedras", "generador": "hierba", "tipo": "piedritas", "color": "verde", "variantes": 3, "escala": 1.6},
+    {"modelo": "hierba", "generador": "hierba", "tipo": "mata", "color": "verde", "variantes": 2, "escala": 0.7}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "descripcion": "Mina (bioma 3D 'mina'): roca oscura de las galerías, vetas de cuarzo, huesos de mineros y material colono abandonado. Zonas: Mina abandonada, Geoda profunda y Túneles de servicio. Se generan con: blender --background --python propforge.py -- --karth <carpeta de Karth> --bioma mina",
+  "semilla": 5507,
+  "piezas": {"generador": "terreno", "color": "mina", "variantes": 3, "escala": 1.0},
+  "objetos": [
+    {"modelo": "roca_grande", "generador": "rocas", "tipo": "penasco", "color": "volcanica", "variantes": 3, "escala": 0.28},
+    {"modelo": "cristal_grande", "generador": "cristales", "tipo": "veta", "color": "cuarzo", "variantes": 3, "escala": 0.9},
+    {"modelo": "barriles", "generador": "colonos", "tipo": "barriles", "color": "oxido", "variantes": 3, "escala": 0.5},
+    {"modelo": "cajas", "generador": "colonos", "tipo": "cajas", "color": "abandonado", "variantes": 3, "escala": 0.5},
+    {"modelo": "deco_cristales", "generador": "cristales", "tipo": "racimo", "color": "cuarzo", "variantes": 3, "escala": 0.8, "params": {"roca": 0.0, "cristales": [5, 9], "alto": [0.5, 0.9], "grosor": [0.06, 0.11], "inclinacion": [5, 40]}},
+    {"modelo": "deco_hongos", "generador": "hongos", "tipo": "grupo", "color": "brillante", "variantes": 3, "escala": 1.0},
+    {"modelo": "deco_huesos", "generador": "huesos", "tipo": "sueltos", "color": "viejo", "variantes": 3, "escala": 0.9},
+    {"modelo": "deco_piedras", "generador": "hierba", "tipo": "piedritas", "color": "ceniza", "variantes": 3, "escala": 1.6}
+  ]
+}

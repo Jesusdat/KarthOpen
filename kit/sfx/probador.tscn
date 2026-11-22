@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://noaip4dv4qel"]
+
+[ext_resource type="Script" uid="uid://bwxd81h8fijk2" path="res://kit/sfx/probador.gd" id="1_prob"]
+
+[node name="ProbadorSfx" type="Control" unique_id=640791939]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_prob")

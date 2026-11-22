@@ -1,0 +1,102 @@
+{
+  "descripcion": "Modelos de PropForge para Campos marchitos (bioma 3D 'ceniza'). Se generan con: blender --background --python propforge.py -- --karth <carpeta de Karth> --bioma ceniza",
+  "semilla": 7919,
+  "piezas": {"generador": "terreno", "color": "ceniza", "variantes": 3, "escala": 1.0},
+  "objetos": [
+    {
+      "modelo": "arbol_muerto",
+      "generador": "arboles",
+      "tipo": "seco",
+      "color": "invierno",
+      "variantes": 4,
+      "escala": 0.3
+    },
+    {
+      "modelo": "roca_grande",
+      "generador": "rocas",
+      "tipo": "penasco",
+      "color": "gris",
+      "variantes": 3,
+      "escala": 0.28
+    },
+    {
+      "modelo": "ruina",
+      "generador": "ruinas",
+      "tipo": "muro",
+      "color": "gris",
+      "variantes": 3,
+      "escala": 0.3,
+      "giro_libre": false,
+      "params": {
+        "largo": [
+          3.0,
+          3.3
+        ],
+        "alto": [
+          3.0,
+          4.0
+        ]
+      }
+    },
+    {
+      "modelo": "cerca",
+      "generador": "cercas",
+      "tipo": "madera",
+      "color": "vieja",
+      "variantes": 3,
+      "escala": 0.6,
+      "giro_libre": false,
+      "params": {
+        "tramos": [
+          1,
+          1
+        ],
+        "largo_tramo": 1.67,
+        "alto": [
+          0.9,
+          1.1
+        ]
+      }
+    },
+    {
+      "modelo": "deco_matorral",
+      "generador": "arboles",
+      "tipo": "arbusto",
+      "color": "otono",
+      "variantes": 3,
+      "escala": 0.35
+    },
+    {
+      "modelo": "deco_hongos",
+      "generador": "hongos",
+      "tipo": "grupo",
+      "color": "progenie",
+      "variantes": 3,
+      "escala": 1.0
+    },
+    {
+      "modelo": "deco_piedras",
+      "generador": "hierba",
+      "tipo": "piedritas",
+      "color": "verde",
+      "variantes": 3,
+      "escala": 1.6
+    },
+    {
+      "modelo": "deco_tocon",
+      "generador": "troncos",
+      "tipo": "tocon",
+      "color": "quemado",
+      "variantes": 2,
+      "escala": 0.45
+    },
+    {
+      "modelo": "hierba",
+      "generador": "hierba",
+      "tipo": "mata",
+      "color": "seco",
+      "variantes": 3,
+      "escala": 0.9
+    }
+  ]
+}
