@@ -1,0 +1,979 @@
+{
+  "nombre": "zangano",
+  "descripcion": "Zángano (rediseño): vejiga que flota soltando filamentos y una tinta negra.",
+  "grupos_paleta": [
+    "piel",
+    "hueso",
+    "tela",
+    "acido"
+  ],
+  "escala_camara": 2.4,
+  "centro_y": 1.15,
+  "materiales": {
+    "carne_clara": {
+      "color": "#cdb592"
+    },
+    "carne": {
+      "color": "#a88e74"
+    },
+    "vientre": {
+      "color": "#603c30"
+    },
+    "hongo": {
+      "color": "#445c42"
+    },
+    "cristal": {
+      "color": "#a8d048",
+      "emision": "#5a7a20"
+    },
+    "parpado": {
+      "color": "#8a6450"
+    },
+    "ojo": {
+      "color": "#d0e858",
+      "emision": "#9ab830"
+    },
+    "boca": {
+      "color": "#2a1618"
+    },
+    "hueso": {
+      "color": "#d8ccb0"
+    },
+    "tinta": {
+      "color": "#1c1418"
+    }
+  },
+  "pivotes": [
+    {
+      "id": "cuerpo",
+      "pos": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "vejiga",
+      "padre": "cuerpo",
+      "pos": [
+        0,
+        1.4,
+        0
+      ]
+    },
+    {
+      "id": "fil0",
+      "padre": "vejiga",
+      "pos": [
+        -0.2,
+        -0.25,
+        0.1
+      ]
+    },
+    {
+      "id": "fil1",
+      "padre": "vejiga",
+      "pos": [
+        0.18,
+        -0.25,
+        0.15
+      ]
+    },
+    {
+      "id": "fil2",
+      "padre": "vejiga",
+      "pos": [
+        0.0,
+        -0.25,
+        -0.2
+      ]
+    },
+    {
+      "id": "fil3",
+      "padre": "vejiga",
+      "pos": [
+        -0.12,
+        -0.25,
+        -0.18
+      ]
+    },
+    {
+      "id": "fil4",
+      "padre": "vejiga",
+      "pos": [
+        0.24,
+        -0.25,
+        -0.1
+      ]
+    },
+    {
+      "id": "fil5",
+      "padre": "vejiga",
+      "pos": [
+        -0.28,
+        -0.25,
+        -0.05
+      ]
+    },
+    {
+      "id": "fil6",
+      "padre": "vejiga",
+      "pos": [
+        0.05,
+        -0.25,
+        0.05
+      ]
+    }
+  ],
+  "piezas": [
+    {
+      "forma": "esfera",
+      "mat": "carne_clara",
+      "pivote": "vejiga",
+      "radio": 0.42,
+      "pos": [
+        0,
+        0.08,
+        0
+      ],
+      "escala": [
+        1.05,
+        0.9,
+        1.0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "vejiga",
+      "radio": 0.4,
+      "pos": [
+        0.02,
+        -0.02,
+        -0.02
+      ],
+      "escala": [
+        1.08,
+        0.85,
+        1.05
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "vientre",
+      "pivote": "vejiga",
+      "radio": 0.34,
+      "pos": [
+        0,
+        -0.16,
+        0
+      ],
+      "escala": [
+        1.1,
+        0.55,
+        1.1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "vejiga",
+      "radio": 0.17,
+      "pos": [
+        -0.3,
+        0.18,
+        -0.2
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "hongo",
+      "pivote": "vejiga",
+      "radio": 0.14,
+      "pos": [
+        0.22,
+        0.3,
+        0.1
+      ],
+      "escala": [
+        1,
+        0.4,
+        1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "hongo",
+      "pivote": "vejiga",
+      "radio": 0.1,
+      "pos": [
+        -0.2,
+        0.32,
+        0.18
+      ],
+      "escala": [
+        1,
+        0.4,
+        1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "vejiga",
+      "radio": 0.09,
+      "pos": [
+        0.098,
+        0.05,
+        0.367
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "vejiga",
+      "radio": 0.13,
+      "pos": [
+        0.379,
+        -0.01,
+        0.02
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "vejiga",
+      "radio": 0.09,
+      "pos": [
+        0.136,
+        -0.07,
+        -0.355
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "vejiga",
+      "radio": 0.13,
+      "pos": [
+        -0.295,
+        0.05,
+        -0.239
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "vejiga",
+      "radio": 0.09,
+      "pos": [
+        -0.319,
+        -0.01,
+        0.207
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "cristal",
+      "pivote": "vejiga",
+      "radio": 0.07,
+      "alto": 0.3,
+      "pos": [
+        0.05,
+        0.42,
+        -0.1
+      ],
+      "rot": [
+        -10,
+        0,
+        -8
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "cristal",
+      "pivote": "vejiga",
+      "radio": 0.05,
+      "alto": 0.22,
+      "pos": [
+        -0.18,
+        0.36,
+        0.05
+      ],
+      "rot": [
+        10,
+        0,
+        30
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "cristal",
+      "pivote": "vejiga",
+      "radio": 0.04,
+      "alto": 0.16,
+      "pos": [
+        0.25,
+        0.28,
+        -0.2
+      ],
+      "rot": [
+        -20,
+        0,
+        -40
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "parpado",
+      "pivote": "vejiga",
+      "radio": 0.08,
+      "pos": [
+        -0.08,
+        0.05,
+        0.4
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "parpado",
+      "pivote": "vejiga",
+      "radio": 0.05,
+      "pos": [
+        0.15,
+        -0.02,
+        0.38
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "ojo",
+      "pivote": "vejiga",
+      "radio": 0.035,
+      "pos": [
+        0.17,
+        -0.01,
+        0.41
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "boca",
+      "pivote": "vejiga",
+      "radio": 0.12,
+      "alto": 0.04,
+      "pos": [
+        0,
+        -0.33,
+        0.04
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "hueso",
+      "pivote": "vejiga",
+      "radio": 0.02,
+      "alto": 0.08,
+      "pos": [
+        0.0,
+        -0.37,
+        0.14
+      ],
+      "rot": [
+        180,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "hueso",
+      "pivote": "vejiga",
+      "radio": 0.02,
+      "alto": 0.08,
+      "pos": [
+        0.087,
+        -0.37,
+        0.09
+      ],
+      "rot": [
+        180,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "hueso",
+      "pivote": "vejiga",
+      "radio": 0.02,
+      "alto": 0.08,
+      "pos": [
+        0.087,
+        -0.37,
+        -0.01
+      ],
+      "rot": [
+        180,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "hueso",
+      "pivote": "vejiga",
+      "radio": 0.02,
+      "alto": 0.08,
+      "pos": [
+        0.0,
+        -0.37,
+        -0.06
+      ],
+      "rot": [
+        180,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "hueso",
+      "pivote": "vejiga",
+      "radio": 0.02,
+      "alto": 0.08,
+      "pos": [
+        -0.087,
+        -0.37,
+        -0.01
+      ],
+      "rot": [
+        180,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "hueso",
+      "pivote": "vejiga",
+      "radio": 0.02,
+      "alto": 0.08,
+      "pos": [
+        -0.087,
+        -0.37,
+        0.09
+      ],
+      "rot": [
+        180,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "carne",
+      "pivote": "fil0",
+      "radio": 0.016,
+      "alto": 0.5,
+      "pos": [
+        0,
+        -0.25,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "tinta",
+      "pivote": "fil0",
+      "radio": 0.03,
+      "pos": [
+        0,
+        -0.275,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "tinta",
+      "pivote": "fil0",
+      "radio": 0.028,
+      "pos": [
+        0,
+        -0.52,
+        0
+      ],
+      "escala": [
+        1,
+        1.4,
+        1
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "hongo",
+      "pivote": "fil1",
+      "radio": 0.016,
+      "alto": 0.62,
+      "pos": [
+        0,
+        -0.31,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "tinta",
+      "pivote": "fil1",
+      "radio": 0.028,
+      "pos": [
+        0,
+        -0.64,
+        0
+      ],
+      "escala": [
+        1,
+        1.4,
+        1
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "carne",
+      "pivote": "fil2",
+      "radio": 0.016,
+      "alto": 0.72,
+      "pos": [
+        0,
+        -0.36,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "tinta",
+      "pivote": "fil2",
+      "radio": 0.03,
+      "pos": [
+        0,
+        -0.396,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "tinta",
+      "pivote": "fil2",
+      "radio": 0.028,
+      "pos": [
+        0,
+        -0.74,
+        0
+      ],
+      "escala": [
+        1,
+        1.4,
+        1
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "hongo",
+      "pivote": "fil3",
+      "radio": 0.016,
+      "alto": 0.45,
+      "pos": [
+        0,
+        -0.225,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "tinta",
+      "pivote": "fil3",
+      "radio": 0.028,
+      "pos": [
+        0,
+        -0.47,
+        0
+      ],
+      "escala": [
+        1,
+        1.4,
+        1
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "carne",
+      "pivote": "fil4",
+      "radio": 0.016,
+      "alto": 0.38,
+      "pos": [
+        0,
+        -0.19,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "tinta",
+      "pivote": "fil4",
+      "radio": 0.03,
+      "pos": [
+        0,
+        -0.209,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "tinta",
+      "pivote": "fil4",
+      "radio": 0.028,
+      "pos": [
+        0,
+        -0.4,
+        0
+      ],
+      "escala": [
+        1,
+        1.4,
+        1
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "hongo",
+      "pivote": "fil5",
+      "radio": 0.016,
+      "alto": 0.3,
+      "pos": [
+        0,
+        -0.15,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "tinta",
+      "pivote": "fil5",
+      "radio": 0.028,
+      "pos": [
+        0,
+        -0.32,
+        0
+      ],
+      "escala": [
+        1,
+        1.4,
+        1
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "carne",
+      "pivote": "fil6",
+      "radio": 0.016,
+      "alto": 0.85,
+      "pos": [
+        0,
+        -0.425,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "tinta",
+      "pivote": "fil6",
+      "radio": 0.03,
+      "pos": [
+        0,
+        -0.468,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "tinta",
+      "pivote": "fil6",
+      "radio": 0.028,
+      "pos": [
+        0,
+        -0.87,
+        0
+      ],
+      "escala": [
+        1,
+        1.4,
+        1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "tinta",
+      "pivote": "cuerpo",
+      "radio": 0.03,
+      "pos": [
+        0.1,
+        0.3,
+        0.05
+      ],
+      "escala": [
+        1,
+        1.5,
+        1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "tinta",
+      "pivote": "cuerpo",
+      "radio": 0.05,
+      "pos": [
+        -0.15,
+        0.02,
+        -0.1
+      ],
+      "escala": [
+        1.6,
+        0.3,
+        1.6
+      ]
+    }
+  ],
+  "animaciones": {
+    "quieto": {
+      "frames": 2,
+      "fps": 2,
+      "bucle": true,
+      "pistas": [
+        {
+          "pivote": "vejiga",
+          "prop": "pos_y",
+          "expr": "sin(ph)*0.06"
+        },
+        {
+          "pivote": "fil0",
+          "prop": "rot_x",
+          "expr": "sin(ph+0.00)*12"
+        },
+        {
+          "pivote": "fil1",
+          "prop": "rot_x",
+          "expr": "sin(ph+0.90)*12"
+        },
+        {
+          "pivote": "fil2",
+          "prop": "rot_x",
+          "expr": "sin(ph+1.80)*12"
+        },
+        {
+          "pivote": "fil3",
+          "prop": "rot_x",
+          "expr": "sin(ph+2.70)*12"
+        },
+        {
+          "pivote": "fil4",
+          "prop": "rot_x",
+          "expr": "sin(ph+3.60)*12"
+        },
+        {
+          "pivote": "fil5",
+          "prop": "rot_x",
+          "expr": "sin(ph+4.50)*12"
+        },
+        {
+          "pivote": "fil6",
+          "prop": "rot_x",
+          "expr": "sin(ph+5.40)*12"
+        },
+        {
+          "pivote": "fil0",
+          "prop": "rot_z",
+          "expr": "cos(ph+0.00)*8"
+        },
+        {
+          "pivote": "fil1",
+          "prop": "rot_z",
+          "expr": "cos(ph+1.30)*8"
+        },
+        {
+          "pivote": "fil2",
+          "prop": "rot_z",
+          "expr": "cos(ph+2.60)*8"
+        },
+        {
+          "pivote": "fil3",
+          "prop": "rot_z",
+          "expr": "cos(ph+3.90)*8"
+        },
+        {
+          "pivote": "fil4",
+          "prop": "rot_z",
+          "expr": "cos(ph+5.20)*8"
+        },
+        {
+          "pivote": "fil5",
+          "prop": "rot_z",
+          "expr": "cos(ph+6.50)*8"
+        },
+        {
+          "pivote": "fil6",
+          "prop": "rot_z",
+          "expr": "cos(ph+7.80)*8"
+        }
+      ]
+    },
+    "caminar": {
+      "frames": 4,
+      "fps": 8,
+      "bucle": true,
+      "pistas": [
+        {
+          "pivote": "vejiga",
+          "prop": "pos_y",
+          "expr": "sin(ph)*0.05"
+        },
+        {
+          "pivote": "vejiga",
+          "prop": "rot_x",
+          "expr": "8+sin(ph)*3"
+        },
+        {
+          "pivote": "fil0",
+          "prop": "rot_x",
+          "expr": "-18+sin(ph+0.00)*10"
+        },
+        {
+          "pivote": "fil1",
+          "prop": "rot_x",
+          "expr": "-18+sin(ph+0.90)*10"
+        },
+        {
+          "pivote": "fil2",
+          "prop": "rot_x",
+          "expr": "-18+sin(ph+1.80)*10"
+        },
+        {
+          "pivote": "fil3",
+          "prop": "rot_x",
+          "expr": "-18+sin(ph+2.70)*10"
+        },
+        {
+          "pivote": "fil4",
+          "prop": "rot_x",
+          "expr": "-18+sin(ph+3.60)*10"
+        },
+        {
+          "pivote": "fil5",
+          "prop": "rot_x",
+          "expr": "-18+sin(ph+4.50)*10"
+        },
+        {
+          "pivote": "fil6",
+          "prop": "rot_x",
+          "expr": "-18+sin(ph+5.40)*10"
+        }
+      ]
+    },
+    "atacar": {
+      "frames": 3,
+      "fps": 10,
+      "bucle": false,
+      "pistas": [
+        {
+          "pivote": "vejiga",
+          "prop": "pos_y",
+          "frames": [
+            0,
+            -0.35,
+            -0.1
+          ]
+        },
+        {
+          "pivote": "vejiga",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            25,
+            8
+          ]
+        },
+        {
+          "pivote": "vejiga",
+          "prop": "pos_z",
+          "frames": [
+            0,
+            0.2,
+            0.05
+          ]
+        },
+        {
+          "pivote": "fil0",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -35,
+            -10
+          ]
+        },
+        {
+          "pivote": "fil1",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -35,
+            -10
+          ]
+        },
+        {
+          "pivote": "fil2",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -35,
+            -10
+          ]
+        },
+        {
+          "pivote": "fil3",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -35,
+            -10
+          ]
+        },
+        {
+          "pivote": "fil4",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -35,
+            -10
+          ]
+        },
+        {
+          "pivote": "fil5",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -35,
+            -10
+          ]
+        },
+        {
+          "pivote": "fil6",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -35,
+            -10
+          ]
+        }
+      ]
+    }
+  }
+}

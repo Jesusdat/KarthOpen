@@ -1,0 +1,1044 @@
+{
+  "nombre": "tejedor",
+  "descripcion": "Tejedor (rediseño): Antiguo esbelto con velo y máscara sin boca; en vez de manos, hilos de luz que salen de las muñecas, y un halo de prismas detrás de la cabeza.",
+  "grupos_paleta": [
+    "grises",
+    "violeta",
+    "oro",
+    "brillos"
+  ],
+  "escala_camara": 2.8,
+  "centro_y": 1.0,
+  "materiales": {
+    "piedra": {
+      "color": "#cbc3d8"
+    },
+    "velo_claro": {
+      "color": "#5a3a8a"
+    },
+    "luz_v": {
+      "color": "#c8a8f0",
+      "emision": "#8a64c0"
+    },
+    "piedra_osc": {
+      "color": "#6a5a80"
+    },
+    "runa": {
+      "color": "#e0a830"
+    },
+    "luz": {
+      "color": "#ffd86a",
+      "emision": "#e0a830"
+    },
+    "mascara": {
+      "color": "#e0dedc"
+    },
+    "velo": {
+      "color": "#3a2464"
+    },
+    "cristal_v": {
+      "color": "#8a64c0",
+      "emision": "#5a3a8a"
+    }
+  },
+  "pivotes": [
+    {
+      "id": "cuerpo",
+      "pos": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cadera",
+      "padre": "cuerpo",
+      "pos": [
+        0,
+        1.029,
+        0
+      ]
+    },
+    {
+      "id": "pierna_i",
+      "padre": "cadera",
+      "pos": [
+        -0.0935,
+        -0.06,
+        0
+      ]
+    },
+    {
+      "id": "rodilla_i",
+      "padre": "pierna_i",
+      "pos": [
+        0,
+        -0.525,
+        0
+      ]
+    },
+    {
+      "id": "pierna_d",
+      "padre": "cadera",
+      "pos": [
+        0.0935,
+        -0.06,
+        0
+      ]
+    },
+    {
+      "id": "rodilla_d",
+      "padre": "pierna_d",
+      "pos": [
+        0,
+        -0.525,
+        0
+      ]
+    },
+    {
+      "id": "torso",
+      "padre": "cadera",
+      "pos": [
+        0,
+        0.13,
+        0
+      ]
+    },
+    {
+      "id": "cabeza",
+      "padre": "torso",
+      "pos": [
+        0,
+        0.71,
+        0
+      ]
+    },
+    {
+      "id": "mascara",
+      "padre": "cabeza",
+      "pos": [
+        0,
+        0.17,
+        0
+      ]
+    },
+    {
+      "id": "hombro_i",
+      "padre": "torso",
+      "pos": [
+        -0.2825,
+        0.55,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        -6
+      ]
+    },
+    {
+      "id": "codo_i",
+      "padre": "hombro_i",
+      "pos": [
+        0,
+        -0.40950000000000003,
+        0
+      ],
+      "rot": [
+        -8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hombro_d",
+      "padre": "torso",
+      "pos": [
+        0.2825,
+        0.55,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "codo_d",
+      "padre": "hombro_d",
+      "pos": [
+        0,
+        -0.40950000000000003,
+        0
+      ],
+      "rot": [
+        -8,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hilos_i",
+      "padre": "codo_i",
+      "pos": [
+        0,
+        -0.32,
+        0
+      ]
+    },
+    {
+      "id": "hilos_d",
+      "padre": "codo_d",
+      "pos": [
+        0,
+        -0.32,
+        0
+      ]
+    },
+    {
+      "id": "halo",
+      "padre": "cabeza",
+      "pos": [
+        0,
+        0.2,
+        -0.12
+      ]
+    }
+  ],
+  "piezas": [
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "pierna_i",
+      "tam": [
+        0.1105,
+        0.399,
+        0.14
+      ],
+      "pos": [
+        0,
+        -0.242,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "velo_claro",
+      "pivote": "pierna_i",
+      "tam": [
+        0.1275,
+        0.08,
+        0.16
+      ],
+      "pos": [
+        0,
+        -0.06,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "rodilla_i",
+      "radio": 0.035,
+      "pos": [
+        0,
+        0.0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "rodilla_i",
+      "tam": [
+        0.0935,
+        0.399,
+        0.12
+      ],
+      "pos": [
+        0,
+        -0.242,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra_osc",
+      "pivote": "rodilla_i",
+      "tam": [
+        0.102,
+        0.05,
+        0.22
+      ],
+      "pos": [
+        0,
+        -0.473,
+        0.04
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "pierna_d",
+      "tam": [
+        0.1105,
+        0.399,
+        0.14
+      ],
+      "pos": [
+        0,
+        -0.242,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "velo_claro",
+      "pivote": "pierna_d",
+      "tam": [
+        0.1275,
+        0.08,
+        0.16
+      ],
+      "pos": [
+        0,
+        -0.06,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "rodilla_d",
+      "radio": 0.035,
+      "pos": [
+        0,
+        0.0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "rodilla_d",
+      "tam": [
+        0.0935,
+        0.399,
+        0.12
+      ],
+      "pos": [
+        0,
+        -0.242,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra_osc",
+      "pivote": "rodilla_d",
+      "tam": [
+        0.102,
+        0.05,
+        0.22
+      ],
+      "pos": [
+        0,
+        -0.473,
+        0.04
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "cadera",
+      "tam": [
+        0.255,
+        0.12,
+        0.2
+      ],
+      "pos": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "torso",
+      "tam": [
+        0.204,
+        0.18,
+        0.17
+      ],
+      "pos": [
+        0,
+        0.12,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "torso",
+      "radio": 0.05,
+      "pos": [
+        0,
+        0.25,
+        0.02
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "torso",
+      "tam": [
+        0.323,
+        0.3,
+        0.22
+      ],
+      "pos": [
+        0,
+        0.46,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "torso",
+      "tam": [
+        0.02,
+        0.22,
+        0.01
+      ],
+      "pos": [
+        0,
+        0.44,
+        0.11
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz",
+      "pivote": "torso",
+      "radio": 0.05,
+      "pos": [
+        0,
+        0.47,
+        0.09
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "cabeza",
+      "radio": 0.035,
+      "pos": [
+        0,
+        0.0,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "hombro_i",
+      "radio": 0.035,
+      "pos": [
+        0,
+        0.0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "hombro_i",
+      "tam": [
+        0.085,
+        0.315,
+        0.1
+      ],
+      "pos": [
+        0,
+        -0.179,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "codo_i",
+      "radio": 0.03,
+      "pos": [
+        0,
+        0.0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "codo_i",
+      "tam": [
+        0.0765,
+        0.29400000000000004,
+        0.09
+      ],
+      "pos": [
+        0,
+        -0.168,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "hombro_d",
+      "radio": 0.035,
+      "pos": [
+        0,
+        0.0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "hombro_d",
+      "tam": [
+        0.085,
+        0.315,
+        0.1
+      ],
+      "pos": [
+        0,
+        -0.179,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "codo_d",
+      "radio": 0.03,
+      "pos": [
+        0,
+        0.0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "codo_d",
+      "tam": [
+        0.0765,
+        0.29400000000000004,
+        0.09
+      ],
+      "pos": [
+        0,
+        -0.168,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "mascara",
+      "pivote": "mascara",
+      "radio": 0.14,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "escala": [
+        0.85,
+        1.15,
+        0.85
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra_osc",
+      "pivote": "mascara",
+      "tam": [
+        0.05,
+        0.012,
+        0.02
+      ],
+      "pos": [
+        -0.05,
+        0.02,
+        0.12
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra_osc",
+      "pivote": "mascara",
+      "tam": [
+        0.05,
+        0.012,
+        0.02
+      ],
+      "pos": [
+        0.05,
+        0.02,
+        0.12
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "velo",
+      "pivote": "cabeza",
+      "tam": [
+        0.3,
+        0.3,
+        0.03
+      ],
+      "pos": [
+        0,
+        0.2,
+        -0.11
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "velo",
+      "pivote": "torso",
+      "tam": [
+        0.34,
+        0.9,
+        0.03
+      ],
+      "pos": [
+        0,
+        0.2,
+        -0.14
+      ],
+      "rot": [
+        4,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "velo_claro",
+      "pivote": "cadera",
+      "tam": [
+        0.32,
+        0.5,
+        0.2
+      ],
+      "pos": [
+        0,
+        -0.28,
+        0
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "luz",
+      "pivote": "hilos_i",
+      "radio": 0.008,
+      "alto": 0.42,
+      "pos": [
+        -0.025,
+        -0.21,
+        0.0
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "luz",
+      "pivote": "hilos_i",
+      "radio": 0.008,
+      "alto": 0.5,
+      "pos": [
+        0.02,
+        -0.25,
+        0.02
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "luz",
+      "pivote": "hilos_i",
+      "radio": 0.008,
+      "alto": 0.36,
+      "pos": [
+        0.0,
+        -0.18,
+        -0.025
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "luz",
+      "pivote": "hilos_d",
+      "radio": 0.008,
+      "alto": 0.42,
+      "pos": [
+        -0.025,
+        -0.21,
+        0.0
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "luz",
+      "pivote": "hilos_d",
+      "radio": 0.008,
+      "alto": 0.5,
+      "pos": [
+        0.02,
+        -0.25,
+        0.02
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "luz",
+      "pivote": "hilos_d",
+      "radio": 0.008,
+      "alto": 0.36,
+      "pos": [
+        0.0,
+        -0.18,
+        -0.025
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "cristal_v",
+      "pivote": "halo",
+      "tam": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "pos": [
+        0.0,
+        0.24,
+        0
+      ],
+      "rot": [
+        45,
+        0,
+        45
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "cristal_v",
+      "pivote": "halo",
+      "tam": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "pos": [
+        0.208,
+        0.12,
+        0
+      ],
+      "rot": [
+        45,
+        0,
+        45
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "cristal_v",
+      "pivote": "halo",
+      "tam": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "pos": [
+        0.208,
+        -0.12,
+        0
+      ],
+      "rot": [
+        45,
+        0,
+        45
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "cristal_v",
+      "pivote": "halo",
+      "tam": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "pos": [
+        0.0,
+        -0.24,
+        0
+      ],
+      "rot": [
+        45,
+        0,
+        45
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "cristal_v",
+      "pivote": "halo",
+      "tam": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "pos": [
+        -0.208,
+        -0.12,
+        0
+      ],
+      "rot": [
+        45,
+        0,
+        45
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "cristal_v",
+      "pivote": "halo",
+      "tam": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "pos": [
+        -0.208,
+        0.12,
+        0
+      ],
+      "rot": [
+        45,
+        0,
+        45
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz",
+      "pivote": "halo",
+      "radio": 0.03,
+      "pos": [
+        0,
+        0,
+        -0.02
+      ]
+    }
+  ],
+  "animaciones": {
+    "quieto": {
+      "frames": 2,
+      "fps": 2,
+      "bucle": true,
+      "pistas": [
+        {
+          "pivote": "cadera",
+          "prop": "pos_y",
+          "expr": "sin(ph)*0.03"
+        },
+        {
+          "pivote": "cabeza",
+          "prop": "pos_y",
+          "expr": "sin(ph+1.0)*0.012"
+        },
+        {
+          "pivote": "hombro_i",
+          "prop": "pos_y",
+          "expr": "sin(ph+2.0)*0.01"
+        },
+        {
+          "pivote": "hombro_d",
+          "prop": "pos_y",
+          "expr": "sin(ph+0.5)*0.01"
+        },
+        {
+          "pivote": "hombro_i",
+          "prop": "rot_x",
+          "expr": "sin(ph)*3"
+        },
+        {
+          "pivote": "hombro_d",
+          "prop": "rot_x",
+          "expr": "-sin(ph)*3"
+        },
+        {
+          "pivote": "halo",
+          "prop": "rot_z",
+          "expr": "f*30"
+        },
+        {
+          "pivote": "hilos_i",
+          "prop": "rot_x",
+          "expr": "sin(ph)*8"
+        },
+        {
+          "pivote": "hilos_d",
+          "prop": "rot_x",
+          "expr": "-sin(ph)*8"
+        }
+      ]
+    },
+    "caminar": {
+      "frames": 4,
+      "fps": 6,
+      "bucle": true,
+      "pistas": [
+        {
+          "pivote": "pierna_i",
+          "prop": "rot_x",
+          "expr": "sin(ph)*22"
+        },
+        {
+          "pivote": "pierna_d",
+          "prop": "rot_x",
+          "expr": "-sin(ph)*22"
+        },
+        {
+          "pivote": "rodilla_i",
+          "prop": "rot_x",
+          "expr": "max(0.0, -sin(ph))*24"
+        },
+        {
+          "pivote": "rodilla_d",
+          "prop": "rot_x",
+          "expr": "max(0.0, sin(ph))*24"
+        },
+        {
+          "pivote": "hombro_i",
+          "prop": "rot_x",
+          "expr": "-sin(ph)*14"
+        },
+        {
+          "pivote": "hombro_d",
+          "prop": "rot_x",
+          "expr": "sin(ph)*14"
+        },
+        {
+          "pivote": "cadera",
+          "prop": "pos_y",
+          "expr": "0.03+abs(sin(ph))*0.015"
+        },
+        {
+          "pivote": "halo",
+          "prop": "rot_z",
+          "expr": "f*20"
+        },
+        {
+          "pivote": "hilos_i",
+          "prop": "rot_x",
+          "expr": "-12"
+        },
+        {
+          "pivote": "hilos_d",
+          "prop": "rot_x",
+          "expr": "-12"
+        }
+      ]
+    },
+    "atacar": {
+      "frames": 3,
+      "fps": 9,
+      "bucle": false,
+      "pistas": [
+        {
+          "pivote": "hombro_i",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -80,
+            -70
+          ]
+        },
+        {
+          "pivote": "hombro_d",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -80,
+            -70
+          ]
+        },
+        {
+          "pivote": "hombro_i",
+          "prop": "rot_z",
+          "frames": [
+            0,
+            15,
+            10
+          ]
+        },
+        {
+          "pivote": "hombro_d",
+          "prop": "rot_z",
+          "frames": [
+            0,
+            -15,
+            -10
+          ]
+        },
+        {
+          "pivote": "hilos_i",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -20,
+            -10
+          ]
+        },
+        {
+          "pivote": "hilos_d",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -20,
+            -10
+          ]
+        },
+        {
+          "pivote": "halo",
+          "prop": "rot_z",
+          "frames": [
+            0,
+            90,
+            180
+          ]
+        },
+        {
+          "pivote": "cabeza",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -12,
+            -4
+          ]
+        }
+      ]
+    }
+  }
+}

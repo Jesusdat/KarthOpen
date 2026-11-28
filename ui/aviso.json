@@ -1,0 +1,9 @@
+{
+	"tipo": "vertical",
+	"capa": "hud",
+	"posicion": "centro",
+	"visible": "@aviso.visible",
+	"hijos": [
+		{"tipo": "texto", "texto": "{aviso.texto}", "tam": 52, "color": "#c0392b", "alinear": "centro"}
+	]
+}

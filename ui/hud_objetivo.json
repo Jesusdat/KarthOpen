@@ -1,0 +1,12 @@
+{
+	"tipo": "vertical",
+	"capa": "hud",
+	"posicion": "arriba",
+	"margen": 28,
+	"separacion": 4,
+	"visible": "@objetivo.visible",
+	"hijos": [
+		{"tipo": "texto", "texto": "{objetivo.nombre}", "tam": 18, "alinear": "centro"},
+		{"tipo": "barra", "tamano": [460, 14], "valor": "@objetivo.vida", "max": "@objetivo.vida_max", "color": "#8e2a2a"}
+	]
+}

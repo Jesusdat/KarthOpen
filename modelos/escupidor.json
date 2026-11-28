@@ -1,0 +1,1258 @@
+{
+  "nombre": "escupidor",
+  "descripcion": "Escupidor (rediseño): columna de carne medio enraizada, con cristales que le brotan del cuerpo; escupe abriendo una boca en pétalos.",
+  "grupos_paleta": [
+    "piel",
+    "hueso",
+    "tela",
+    "acido"
+  ],
+  "escala_camara": 2.9,
+  "centro_y": 1.05,
+  "materiales": {
+    "carne": {
+      "color": "#a88e74"
+    },
+    "carne_clara": {
+      "color": "#cdb592"
+    },
+    "vientre": {
+      "color": "#603c30"
+    },
+    "hongo": {
+      "color": "#445c42"
+    },
+    "boca": {
+      "color": "#2a1618"
+    },
+    "cristal": {
+      "color": "#a8d048",
+      "emision": "#5a7a20"
+    },
+    "garganta": {
+      "color": "#8ab838",
+      "emision": "#4a6a18"
+    },
+    "hueso": {
+      "color": "#d8ccb0"
+    },
+    "labio": {
+      "color": "#8a5e50"
+    }
+  },
+  "pivotes": [
+    {
+      "id": "cuerpo",
+      "pos": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "raiz0",
+      "padre": "cuerpo",
+      "pos": [
+        0.06156362579862037,
+        0.1,
+        0.1691446717414635
+      ],
+      "rot": [
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "id": "raiz1",
+      "padre": "cuerpo",
+      "pos": [
+        0.17931504565651418,
+        0.1,
+        -0.015688033694578482
+      ],
+      "rot": [
+        0,
+        95,
+        0
+      ]
+    },
+    {
+      "id": "raiz2",
+      "padre": "cuerpo",
+      "pos": [
+        0.061563625798620396,
+        0.1,
+        -0.1691446717414635
+      ],
+      "rot": [
+        0,
+        160,
+        0
+      ]
+    },
+    {
+      "id": "raiz3",
+      "padre": "cuerpo",
+      "pos": [
+        -0.11570176974357706,
+        0.1,
+        -0.13788799976141602
+      ],
+      "rot": [
+        0,
+        220,
+        0
+      ]
+    },
+    {
+      "id": "raiz4",
+      "padre": "cuerpo",
+      "pos": [
+        -0.1691446717414635,
+        0.1,
+        0.06156362579862042
+      ],
+      "rot": [
+        0,
+        290,
+        0
+      ]
+    },
+    {
+      "id": "raiz5",
+      "padre": "cuerpo",
+      "pos": [
+        -0.06156362579862035,
+        0.1,
+        0.1691446717414635
+      ],
+      "rot": [
+        0,
+        340,
+        0
+      ]
+    },
+    {
+      "id": "tallo",
+      "padre": "cuerpo",
+      "pos": [
+        0,
+        0.15,
+        0
+      ],
+      "rot": [
+        -4,
+        0,
+        9
+      ]
+    },
+    {
+      "id": "cabeza",
+      "padre": "tallo",
+      "pos": [
+        0.05,
+        1.28,
+        0
+      ],
+      "rot": [
+        -10,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "petalo0",
+      "padre": "cabeza",
+      "pos": [
+        0,
+        0.0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "petalo0b",
+      "padre": "petalo0",
+      "pos": [
+        0,
+        -0.02,
+        0.17
+      ],
+      "rot": [
+        -38,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "petalo1",
+      "padre": "cabeza",
+      "pos": [
+        0,
+        0.0,
+        0
+      ],
+      "rot": [
+        0,
+        72,
+        0
+      ]
+    },
+    {
+      "id": "petalo1b",
+      "padre": "petalo1",
+      "pos": [
+        0,
+        -0.02,
+        0.17
+      ],
+      "rot": [
+        -38,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "petalo2",
+      "padre": "cabeza",
+      "pos": [
+        0,
+        0.0,
+        0
+      ],
+      "rot": [
+        0,
+        144,
+        0
+      ]
+    },
+    {
+      "id": "petalo2b",
+      "padre": "petalo2",
+      "pos": [
+        0,
+        -0.02,
+        0.17
+      ],
+      "rot": [
+        -38,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "petalo3",
+      "padre": "cabeza",
+      "pos": [
+        0,
+        0.0,
+        0
+      ],
+      "rot": [
+        0,
+        216,
+        0
+      ]
+    },
+    {
+      "id": "petalo3b",
+      "padre": "petalo3",
+      "pos": [
+        0,
+        -0.02,
+        0.17
+      ],
+      "rot": [
+        -38,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "petalo4",
+      "padre": "cabeza",
+      "pos": [
+        0,
+        0.0,
+        0
+      ],
+      "rot": [
+        0,
+        288,
+        0
+      ]
+    },
+    {
+      "id": "petalo4b",
+      "padre": "petalo4",
+      "pos": [
+        0,
+        -0.02,
+        0.17
+      ],
+      "rot": [
+        -38,
+        0,
+        0
+      ]
+    }
+  ],
+  "piezas": [
+    {
+      "forma": "caja",
+      "mat": "carne",
+      "pivote": "raiz0",
+      "tam": [
+        0.07,
+        0.06,
+        0.5
+      ],
+      "pos": [
+        0,
+        -0.04,
+        0.25
+      ],
+      "rot": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "carne_clara",
+      "pivote": "raiz0",
+      "radio": 0.04,
+      "alto": 0.16,
+      "pos": [
+        0,
+        -0.08,
+        0.55
+      ],
+      "rot": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "carne",
+      "pivote": "raiz1",
+      "tam": [
+        0.07,
+        0.06,
+        0.62
+      ],
+      "pos": [
+        0,
+        -0.04,
+        0.31
+      ],
+      "rot": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "carne_clara",
+      "pivote": "raiz1",
+      "radio": 0.04,
+      "alto": 0.16,
+      "pos": [
+        0,
+        -0.08,
+        0.67
+      ],
+      "rot": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "carne",
+      "pivote": "raiz2",
+      "tam": [
+        0.07,
+        0.06,
+        0.74
+      ],
+      "pos": [
+        0,
+        -0.04,
+        0.37
+      ],
+      "rot": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "carne_clara",
+      "pivote": "raiz2",
+      "radio": 0.04,
+      "alto": 0.16,
+      "pos": [
+        0,
+        -0.08,
+        0.79
+      ],
+      "rot": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "carne",
+      "pivote": "raiz3",
+      "tam": [
+        0.07,
+        0.06,
+        0.5
+      ],
+      "pos": [
+        0,
+        -0.04,
+        0.25
+      ],
+      "rot": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "carne_clara",
+      "pivote": "raiz3",
+      "radio": 0.04,
+      "alto": 0.16,
+      "pos": [
+        0,
+        -0.08,
+        0.55
+      ],
+      "rot": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "carne",
+      "pivote": "raiz4",
+      "tam": [
+        0.07,
+        0.06,
+        0.62
+      ],
+      "pos": [
+        0,
+        -0.04,
+        0.31
+      ],
+      "rot": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "carne_clara",
+      "pivote": "raiz4",
+      "radio": 0.04,
+      "alto": 0.16,
+      "pos": [
+        0,
+        -0.08,
+        0.67
+      ],
+      "rot": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "carne",
+      "pivote": "raiz5",
+      "tam": [
+        0.07,
+        0.06,
+        0.74
+      ],
+      "pos": [
+        0,
+        -0.04,
+        0.37
+      ],
+      "rot": [
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "carne_clara",
+      "pivote": "raiz5",
+      "radio": 0.04,
+      "alto": 0.16,
+      "pos": [
+        0,
+        -0.08,
+        0.79
+      ],
+      "rot": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "vientre",
+      "pivote": "cuerpo",
+      "radio": 0.32,
+      "pos": [
+        0,
+        0.12,
+        0
+      ],
+      "escala": [
+        1.2,
+        0.5,
+        1.2
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "carne",
+      "pivote": "tallo",
+      "radio": 0.2,
+      "alto": 1.15,
+      "pos": [
+        0,
+        0.62,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "tallo",
+      "radio": 0.3,
+      "pos": [
+        0.0,
+        0.22,
+        0
+      ],
+      "escala": [
+        1.1,
+        0.9,
+        1.05
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "tallo",
+      "radio": 0.2,
+      "pos": [
+        0.1,
+        0.5,
+        0.06
+      ],
+      "escala": [
+        1,
+        1.25,
+        1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "tallo",
+      "radio": 0.19,
+      "pos": [
+        -0.08,
+        0.8,
+        -0.05
+      ],
+      "escala": [
+        1,
+        1.25,
+        1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "tallo",
+      "radio": 0.17,
+      "pos": [
+        0.07,
+        1.05,
+        0.04
+      ],
+      "escala": [
+        1,
+        1.25,
+        1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "tallo",
+      "radio": 0.17,
+      "pos": [
+        -0.12,
+        0.42,
+        -0.1
+      ],
+      "escala": [
+        1,
+        1.25,
+        1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "tallo",
+      "radio": 0.13,
+      "pos": [
+        0.14,
+        0.82,
+        -0.1
+      ],
+      "escala": [
+        1,
+        1.25,
+        1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "tallo",
+      "radio": 0.15,
+      "pos": [
+        -0.04,
+        1.18,
+        -0.02
+      ],
+      "escala": [
+        1,
+        1.25,
+        1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "tallo",
+      "radio": 0.15,
+      "pos": [
+        -0.22,
+        0.65,
+        -0.05
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "hongo",
+      "pivote": "tallo",
+      "radio": 0.12,
+      "pos": [
+        0.2,
+        0.4,
+        0.12
+      ],
+      "escala": [
+        0.5,
+        1,
+        1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "hongo",
+      "pivote": "tallo",
+      "radio": 0.09,
+      "pos": [
+        -0.18,
+        0.95,
+        0.1
+      ],
+      "escala": [
+        0.6,
+        1,
+        1
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne_clara",
+      "pivote": "tallo",
+      "radio": 0.12,
+      "pos": [
+        0.0,
+        0.62,
+        0.24
+      ],
+      "escala": [
+        0.9,
+        1.2,
+        0.35
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "boca",
+      "pivote": "tallo",
+      "tam": [
+        0.025,
+        0.025,
+        0.04
+      ],
+      "pos": [
+        -0.04,
+        0.66,
+        0.28
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "boca",
+      "pivote": "tallo",
+      "tam": [
+        0.025,
+        0.025,
+        0.04
+      ],
+      "pos": [
+        0.04,
+        0.66,
+        0.28
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "cristal",
+      "pivote": "tallo",
+      "radio": 0.07,
+      "alto": 0.4,
+      "pos": [
+        0.24,
+        0.5,
+        0.0
+      ],
+      "rot": [
+        0,
+        0,
+        -55
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "cristal",
+      "pivote": "tallo",
+      "radio": 0.06,
+      "alto": 0.34,
+      "pos": [
+        -0.22,
+        0.85,
+        -0.05
+      ],
+      "rot": [
+        0,
+        0,
+        60
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "cristal",
+      "pivote": "tallo",
+      "radio": 0.05,
+      "alto": 0.28,
+      "pos": [
+        0.15,
+        0.95,
+        -0.15
+      ],
+      "rot": [
+        -40,
+        0,
+        -30
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "cristal",
+      "pivote": "tallo",
+      "radio": 0.06,
+      "alto": 0.3,
+      "pos": [
+        -0.15,
+        0.3,
+        -0.2
+      ],
+      "rot": [
+        -50,
+        0,
+        30
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "cristal",
+      "pivote": "tallo",
+      "radio": 0.05,
+      "alto": 0.3,
+      "pos": [
+        0.05,
+        0.75,
+        -0.25
+      ],
+      "rot": [
+        -70,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "garganta",
+      "pivote": "cabeza",
+      "radio": 0.17,
+      "pos": [
+        0,
+        0.07,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "carne",
+      "pivote": "cabeza",
+      "radio": 0.2,
+      "pos": [
+        0,
+        -0.06,
+        0
+      ],
+      "escala": [
+        1,
+        0.6,
+        1
+      ]
+    },
+    {
+      "forma": "cilindro",
+      "mat": "boca",
+      "pivote": "cabeza",
+      "radio": 0.1,
+      "alto": 0.06,
+      "pos": [
+        0,
+        0.14,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "carne",
+      "pivote": "petalo0b",
+      "tam": [
+        0.22,
+        0.42,
+        0.045
+      ],
+      "pos": [
+        0,
+        0.2,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "carne_clara",
+      "pivote": "petalo0b",
+      "tam": [
+        0.12,
+        0.3,
+        0.02
+      ],
+      "pos": [
+        0,
+        0.18,
+        -0.03
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "hueso",
+      "pivote": "petalo0b",
+      "radio": 0.025,
+      "alto": 0.1,
+      "pos": [
+        0,
+        0.43,
+        -0.01
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "labio",
+      "pivote": "petalo1b",
+      "tam": [
+        0.22,
+        0.42,
+        0.045
+      ],
+      "pos": [
+        0,
+        0.2,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "carne_clara",
+      "pivote": "petalo1b",
+      "tam": [
+        0.12,
+        0.3,
+        0.02
+      ],
+      "pos": [
+        0,
+        0.18,
+        -0.03
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "hueso",
+      "pivote": "petalo1b",
+      "radio": 0.025,
+      "alto": 0.1,
+      "pos": [
+        0,
+        0.43,
+        -0.01
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "carne",
+      "pivote": "petalo2b",
+      "tam": [
+        0.22,
+        0.42,
+        0.045
+      ],
+      "pos": [
+        0,
+        0.2,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "carne_clara",
+      "pivote": "petalo2b",
+      "tam": [
+        0.12,
+        0.3,
+        0.02
+      ],
+      "pos": [
+        0,
+        0.18,
+        -0.03
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "hueso",
+      "pivote": "petalo2b",
+      "radio": 0.025,
+      "alto": 0.1,
+      "pos": [
+        0,
+        0.43,
+        -0.01
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "labio",
+      "pivote": "petalo3b",
+      "tam": [
+        0.22,
+        0.42,
+        0.045
+      ],
+      "pos": [
+        0,
+        0.2,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "carne_clara",
+      "pivote": "petalo3b",
+      "tam": [
+        0.12,
+        0.3,
+        0.02
+      ],
+      "pos": [
+        0,
+        0.18,
+        -0.03
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "hueso",
+      "pivote": "petalo3b",
+      "radio": 0.025,
+      "alto": 0.1,
+      "pos": [
+        0,
+        0.43,
+        -0.01
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "carne",
+      "pivote": "petalo4b",
+      "tam": [
+        0.22,
+        0.42,
+        0.045
+      ],
+      "pos": [
+        0,
+        0.2,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "carne_clara",
+      "pivote": "petalo4b",
+      "tam": [
+        0.12,
+        0.3,
+        0.02
+      ],
+      "pos": [
+        0,
+        0.18,
+        -0.03
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "hueso",
+      "pivote": "petalo4b",
+      "radio": 0.025,
+      "alto": 0.1,
+      "pos": [
+        0,
+        0.43,
+        -0.01
+      ]
+    }
+  ],
+  "animaciones": {
+    "quieto": {
+      "frames": 2,
+      "fps": 2,
+      "bucle": true,
+      "pistas": [
+        {
+          "pivote": "tallo",
+          "prop": "rot_z",
+          "expr": "sin(ph)*2"
+        },
+        {
+          "pivote": "cabeza",
+          "prop": "rot_x",
+          "expr": "-10+sin(ph)*4"
+        },
+        {
+          "pivote": "petalo0b",
+          "prop": "rot_x",
+          "expr": "-sin(ph)*4"
+        },
+        {
+          "pivote": "petalo1b",
+          "prop": "rot_x",
+          "expr": "-sin(ph)*4"
+        },
+        {
+          "pivote": "petalo2b",
+          "prop": "rot_x",
+          "expr": "-sin(ph)*4"
+        },
+        {
+          "pivote": "petalo3b",
+          "prop": "rot_x",
+          "expr": "-sin(ph)*4"
+        },
+        {
+          "pivote": "petalo4b",
+          "prop": "rot_x",
+          "expr": "-sin(ph)*4"
+        }
+      ]
+    },
+    "caminar": {
+      "frames": 4,
+      "fps": 6,
+      "bucle": true,
+      "pistas": [
+        {
+          "pivote": "tallo",
+          "prop": "rot_x",
+          "expr": "sin(ph)*6"
+        },
+        {
+          "pivote": "tallo",
+          "prop": "rot_z",
+          "expr": "cos(ph)*4"
+        },
+        {
+          "pivote": "cuerpo",
+          "prop": "pos_y",
+          "expr": "abs(sin(ph))*0.03"
+        },
+        {
+          "pivote": "raiz0",
+          "prop": "rot_x",
+          "expr": "sin(ph+0*1.1)*14"
+        },
+        {
+          "pivote": "raiz1",
+          "prop": "rot_x",
+          "expr": "sin(ph+1*1.1)*14"
+        },
+        {
+          "pivote": "raiz2",
+          "prop": "rot_x",
+          "expr": "sin(ph+2*1.1)*14"
+        },
+        {
+          "pivote": "raiz3",
+          "prop": "rot_x",
+          "expr": "sin(ph+3*1.1)*14"
+        },
+        {
+          "pivote": "raiz4",
+          "prop": "rot_x",
+          "expr": "sin(ph+4*1.1)*14"
+        },
+        {
+          "pivote": "raiz5",
+          "prop": "rot_x",
+          "expr": "sin(ph+5*1.1)*14"
+        }
+      ]
+    },
+    "atacar": {
+      "frames": 3,
+      "fps": 8,
+      "bucle": false,
+      "pistas": [
+        {
+          "pivote": "tallo",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -14,
+            10
+          ]
+        },
+        {
+          "pivote": "cabeza",
+          "prop": "rot_x",
+          "frames": [
+            -10,
+            -30,
+            20
+          ]
+        },
+        {
+          "pivote": "petalo0b",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            70,
+            45
+          ]
+        },
+        {
+          "pivote": "petalo1b",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            70,
+            45
+          ]
+        },
+        {
+          "pivote": "petalo2b",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            70,
+            45
+          ]
+        },
+        {
+          "pivote": "petalo3b",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            70,
+            45
+          ]
+        },
+        {
+          "pivote": "petalo4b",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            70,
+            45
+          ]
+        }
+      ]
+    }
+  }
+}

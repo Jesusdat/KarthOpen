@@ -19,9 +19,13 @@ con el lore de Cenizas de Karth. Un jugador, sin red. Godot 4.7.2, Forward+, Jol
   Los textos en .cfg van entre comillas (`bioma="llanura"`).
 - Interfaz con UIBuilder (JSON en `ui/`), enlazada a `UIBuilder.estado`.
 - Controles en `datos/controles.cfg` (autoload `Controles`), no en el Mapa de entrada.
+- Capas de física: 1 mundo, 2 jugador, 3 criaturas. El combate usa `Golpe.aplicar_en_area`
+  y `recibir_golpe(golpe) -> String` (ver `combate/golpe.gd`).
+- Sonidos y efectos con el autoload `Efectos` (SfxBanco + FxBanco del kit, datos de Karth).
 - Terreno propio (`mundo/terreno/terreno_karth.gd`), sin Terrain3D. El editor de terreno
   (pinceles, pintura, props) se construirá sobre él.
 
 ## Pruebas
-- `godot --headless res://pruebas/prueba_paso1.tscn` — debe terminar en "TODO BIEN".
+- `godot --headless res://pruebas/prueba_paso1.tscn` (movimiento) y
+  `godot --headless res://pruebas/prueba_paso2.tscn` (combate) — deben terminar en "TODO BIEN".
 - Antes de subir: `godot --headless --import` sin errores y las pruebas en verde.

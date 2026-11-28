@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3]
+[gd_scene load_steps=15 format=3]
 
 [ext_resource type="Script" path="res://mundo/prueba.gd" id="1_prueba"]
 [ext_resource type="Script" path="res://mundo/terreno/terreno_karth.gd" id="2_terreno"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://jugador/jugador.gd" id="4_jugador"]
 [ext_resource type="Script" path="res://jugador/camara_orbital.gd" id="5_camara"]
 [ext_resource type="PackedScene" path="res://modelos/colono.glb" id="6_colono"]
+[ext_resource type="Script" path="res://criaturas/guarida.gd" id="7_guarida"]
 
 [sub_resource type="ProceduralSkyMaterial" id="cielo_mat"]
 sky_top_color = Color(0.32, 0.36, 0.45, 1)
@@ -87,3 +88,17 @@ margin = 0.1
 current = true
 fov = 70.0
 far = 1500.0
+
+[node name="GuaridaNorte" type="Node3D" parent="." groups=["guaridas_prueba"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -22)
+script = ExtResource("7_guarida")
+cantidad = 1
+radio = 2.0
+reaparicion = 15.0
+
+[node name="GuaridaEste" type="Node3D" parent="." groups=["guaridas_prueba"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45, 0, 10)
+script = ExtResource("7_guarida")
+cantidad = 3
+radio = 6.0
+reaparicion = 25.0

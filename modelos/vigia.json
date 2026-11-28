@@ -1,0 +1,1104 @@
+{
+  "nombre": "vigia",
+  "descripcion": "Vigía de cristal (rediseño): un cristal facetado que flota rodeado de anillos que giran.",
+  "grupos_paleta": [
+    "grises",
+    "violeta",
+    "oro",
+    "brillos"
+  ],
+  "escala_camara": 2.6,
+  "centro_y": 1.0,
+  "materiales": {
+    "cristal_v": {
+      "color": "#8a64c0",
+      "emision": "#5a3a8a"
+    },
+    "luz": {
+      "color": "#ffd86a",
+      "emision": "#e0a830"
+    },
+    "luz_v": {
+      "color": "#c8a8f0",
+      "emision": "#8a64c0"
+    },
+    "runa": {
+      "color": "#e0a830"
+    },
+    "piedra": {
+      "color": "#cbc3d8"
+    }
+  },
+  "pivotes": [
+    {
+      "id": "cuerpo",
+      "pos": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "nucleo",
+      "padre": "cuerpo",
+      "pos": [
+        0,
+        1.05,
+        0
+      ]
+    },
+    {
+      "id": "anillo0",
+      "padre": "nucleo",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "anillo1",
+      "padre": "nucleo",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        90,
+        0,
+        60
+      ]
+    },
+    {
+      "id": "anillo2",
+      "padre": "nucleo",
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        20,
+        0,
+        0
+      ]
+    }
+  ],
+  "piezas": [
+    {
+      "forma": "cono",
+      "mat": "cristal_v",
+      "pivote": "nucleo",
+      "radio": 0.26,
+      "alto": 0.42,
+      "pos": [
+        0,
+        0.21,
+        0
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "cristal_v",
+      "pivote": "nucleo",
+      "radio": 0.26,
+      "alto": 0.55,
+      "pos": [
+        0,
+        -0.275,
+        0
+      ],
+      "rot": [
+        180,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz",
+      "pivote": "nucleo",
+      "radio": 0.1,
+      "pos": [
+        0,
+        0.0,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "nucleo",
+      "radio": 0.05,
+      "pos": [
+        0,
+        0.0,
+        0.22
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        0.0,
+        0,
+        0.42
+      ],
+      "rot": [
+        0,
+        90.0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        0.182,
+        0,
+        0.378
+      ],
+      "rot": [
+        0,
+        115.71,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        0.328,
+        0,
+        0.262
+      ],
+      "rot": [
+        0,
+        141.43,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        0.409,
+        0,
+        0.093
+      ],
+      "rot": [
+        0,
+        167.14,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        0.409,
+        0,
+        -0.093
+      ],
+      "rot": [
+        0,
+        192.86,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        0.328,
+        0,
+        -0.262
+      ],
+      "rot": [
+        0,
+        218.57,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        0.182,
+        0,
+        -0.378
+      ],
+      "rot": [
+        0,
+        244.29,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        0.0,
+        0,
+        -0.42
+      ],
+      "rot": [
+        0,
+        270.0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        -0.182,
+        0,
+        -0.378
+      ],
+      "rot": [
+        0,
+        295.71,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        -0.328,
+        0,
+        -0.262
+      ],
+      "rot": [
+        0,
+        321.43,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        -0.409,
+        0,
+        -0.093
+      ],
+      "rot": [
+        0,
+        347.14,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        -0.409,
+        0,
+        0.093
+      ],
+      "rot": [
+        0,
+        372.86,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        -0.328,
+        0,
+        0.262
+      ],
+      "rot": [
+        0,
+        398.57,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo0",
+      "tam": [
+        0.06,
+        0.04,
+        0.15079644737231007
+      ],
+      "pos": [
+        -0.182,
+        0,
+        0.378
+      ],
+      "rot": [
+        0,
+        424.29,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        0.0,
+        0,
+        0.5
+      ],
+      "rot": [
+        0,
+        90.0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        0.217,
+        0,
+        0.45
+      ],
+      "rot": [
+        0,
+        115.71,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        0.391,
+        0,
+        0.312
+      ],
+      "rot": [
+        0,
+        141.43,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        0.487,
+        0,
+        0.111
+      ],
+      "rot": [
+        0,
+        167.14,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        0.487,
+        0,
+        -0.111
+      ],
+      "rot": [
+        0,
+        192.86,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        0.391,
+        0,
+        -0.312
+      ],
+      "rot": [
+        0,
+        218.57,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        0.217,
+        0,
+        -0.45
+      ],
+      "rot": [
+        0,
+        244.29,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        0.0,
+        0,
+        -0.5
+      ],
+      "rot": [
+        0,
+        270.0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        -0.217,
+        0,
+        -0.45
+      ],
+      "rot": [
+        0,
+        295.71,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        -0.391,
+        0,
+        -0.312
+      ],
+      "rot": [
+        0,
+        321.43,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        -0.487,
+        0,
+        -0.111
+      ],
+      "rot": [
+        0,
+        347.14,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        -0.487,
+        0,
+        0.111
+      ],
+      "rot": [
+        0,
+        372.86,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        -0.391,
+        0,
+        0.312
+      ],
+      "rot": [
+        0,
+        398.57,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo1",
+      "tam": [
+        0.06,
+        0.04,
+        0.17951958020513104
+      ],
+      "pos": [
+        -0.217,
+        0,
+        0.45
+      ],
+      "rot": [
+        0,
+        424.29,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        0.0,
+        0,
+        0.36
+      ],
+      "rot": [
+        0,
+        90.0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        0.156,
+        0,
+        0.324
+      ],
+      "rot": [
+        0,
+        115.71,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        0.281,
+        0,
+        0.224
+      ],
+      "rot": [
+        0,
+        141.43,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        0.351,
+        0,
+        0.08
+      ],
+      "rot": [
+        0,
+        167.14,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        0.351,
+        0,
+        -0.08
+      ],
+      "rot": [
+        0,
+        192.86,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        0.281,
+        0,
+        -0.224
+      ],
+      "rot": [
+        0,
+        218.57,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        0.156,
+        0,
+        -0.324
+      ],
+      "rot": [
+        0,
+        244.29,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        0.0,
+        0,
+        -0.36
+      ],
+      "rot": [
+        0,
+        270.0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        -0.156,
+        0,
+        -0.324
+      ],
+      "rot": [
+        0,
+        295.71,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        -0.281,
+        0,
+        -0.224
+      ],
+      "rot": [
+        0,
+        321.43,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        -0.351,
+        0,
+        -0.08
+      ],
+      "rot": [
+        0,
+        347.14,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        -0.351,
+        0,
+        0.08
+      ],
+      "rot": [
+        0,
+        372.86,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        -0.281,
+        0,
+        0.224
+      ],
+      "rot": [
+        0,
+        398.57,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "anillo2",
+      "tam": [
+        0.06,
+        0.04,
+        0.12925409774769434
+      ],
+      "pos": [
+        -0.156,
+        0,
+        0.324
+      ],
+      "rot": [
+        0,
+        424.29,
+        0
+      ]
+    }
+  ],
+  "animaciones": {
+    "quieto": {
+      "frames": 2,
+      "fps": 2,
+      "bucle": true,
+      "pistas": [
+        {
+          "pivote": "nucleo",
+          "prop": "pos_y",
+          "expr": "sin(ph)*0.06"
+        },
+        {
+          "pivote": "anillo0",
+          "prop": "rot_y",
+          "expr": "f*40"
+        },
+        {
+          "pivote": "anillo1",
+          "prop": "rot_y",
+          "expr": "-f*55"
+        },
+        {
+          "pivote": "anillo2",
+          "prop": "rot_y",
+          "expr": "f*70"
+        },
+        {
+          "pivote": "nucleo",
+          "prop": "rot_y",
+          "expr": "f*15"
+        }
+      ]
+    },
+    "caminar": {
+      "frames": 4,
+      "fps": 8,
+      "bucle": true,
+      "pistas": [
+        {
+          "pivote": "nucleo",
+          "prop": "pos_y",
+          "expr": "sin(ph)*0.04"
+        },
+        {
+          "pivote": "nucleo",
+          "prop": "rot_x",
+          "expr": "12"
+        },
+        {
+          "pivote": "anillo0",
+          "prop": "rot_y",
+          "expr": "f*80"
+        },
+        {
+          "pivote": "anillo1",
+          "prop": "rot_y",
+          "expr": "-f*90"
+        },
+        {
+          "pivote": "anillo2",
+          "prop": "rot_y",
+          "expr": "f*100"
+        }
+      ]
+    },
+    "atacar": {
+      "frames": 3,
+      "fps": 10,
+      "bucle": false,
+      "pistas": [
+        {
+          "pivote": "nucleo",
+          "prop": "pos_z",
+          "frames": [
+            0,
+            0.35,
+            0.1
+          ]
+        },
+        {
+          "pivote": "nucleo",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            40,
+            10
+          ]
+        },
+        {
+          "pivote": "anillo0",
+          "prop": "rot_y",
+          "frames": [
+            0,
+            180,
+            360
+          ]
+        },
+        {
+          "pivote": "anillo1",
+          "prop": "rot_y",
+          "frames": [
+            0,
+            -180,
+            -360
+          ]
+        },
+        {
+          "pivote": "anillo2",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            70,
+            20
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,699 @@
+{
+  "nombre": "centinela",
+  "descripcion": "Centinela (rediseño): autómata pesado de piedra y metal con el Núcleo antiguo brillando en el pecho; sus piezas flotan separadas por luz y barre el entorno con un ojo.",
+  "grupos_paleta": [
+    "grises",
+    "violeta",
+    "oro",
+    "suelo",
+    "brillos"
+  ],
+  "escala_camara": 3.1,
+  "centro_y": 1.1,
+  "materiales": {
+    "metal": {
+      "color": "#6b6a6a"
+    },
+    "luz_v": {
+      "color": "#c8a8f0",
+      "emision": "#8a64c0"
+    },
+    "piedra": {
+      "color": "#cbc3d8"
+    },
+    "piedra_osc": {
+      "color": "#6a5a80"
+    },
+    "luz": {
+      "color": "#ffd86a",
+      "emision": "#e0a830"
+    },
+    "runa": {
+      "color": "#e0a830"
+    },
+    "cristal_v": {
+      "color": "#8a64c0",
+      "emision": "#5a3a8a"
+    },
+    "vacio": {
+      "color": "#141216"
+    }
+  },
+  "pivotes": [
+    {
+      "id": "cuerpo",
+      "pos": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cadera",
+      "padre": "cuerpo",
+      "pos": [
+        0,
+        0.72,
+        0
+      ]
+    },
+    {
+      "id": "pierna_i",
+      "padre": "cadera",
+      "pos": [
+        -0.26,
+        -0.05,
+        0
+      ]
+    },
+    {
+      "id": "pierna_d",
+      "padre": "cadera",
+      "pos": [
+        0.26,
+        -0.05,
+        0
+      ]
+    },
+    {
+      "id": "torso",
+      "padre": "cadera",
+      "pos": [
+        0,
+        0.15,
+        0
+      ]
+    },
+    {
+      "id": "cabeza",
+      "padre": "torso",
+      "pos": [
+        0,
+        0.98,
+        0.05
+      ]
+    },
+    {
+      "id": "hombro_i",
+      "padre": "torso",
+      "pos": [
+        -0.6,
+        0.7,
+        0
+      ]
+    },
+    {
+      "id": "hombro_d",
+      "padre": "torso",
+      "pos": [
+        0.6,
+        0.7,
+        0
+      ]
+    }
+  ],
+  "piezas": [
+    {
+      "forma": "caja",
+      "mat": "metal",
+      "pivote": "pierna_i",
+      "tam": [
+        0.24,
+        0.32,
+        0.28
+      ],
+      "pos": [
+        0,
+        -0.2,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "pierna_i",
+      "radio": 0.05,
+      "pos": [
+        0,
+        -0.4,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "pierna_i",
+      "tam": [
+        0.3,
+        0.22,
+        0.4
+      ],
+      "pos": [
+        0,
+        -0.58,
+        0.04
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "metal",
+      "pivote": "pierna_d",
+      "tam": [
+        0.24,
+        0.32,
+        0.28
+      ],
+      "pos": [
+        0,
+        -0.2,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "pierna_d",
+      "radio": 0.05,
+      "pos": [
+        0,
+        -0.4,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "pierna_d",
+      "tam": [
+        0.3,
+        0.22,
+        0.4
+      ],
+      "pos": [
+        0,
+        -0.58,
+        0.04
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra_osc",
+      "pivote": "cadera",
+      "tam": [
+        0.6,
+        0.18,
+        0.4
+      ],
+      "pos": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "torso",
+      "radio": 0.07,
+      "pos": [
+        0,
+        0.0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "torso",
+      "tam": [
+        0.9,
+        0.55,
+        0.55
+      ],
+      "pos": [
+        0,
+        0.42,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "metal",
+      "pivote": "torso",
+      "tam": [
+        0.7,
+        0.2,
+        0.5
+      ],
+      "pos": [
+        0,
+        0.78,
+        -0.02
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "metal",
+      "pivote": "torso",
+      "tam": [
+        0.06,
+        0.32,
+        0.06
+      ],
+      "pos": [
+        -0.16,
+        0.42,
+        0.28
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "metal",
+      "pivote": "torso",
+      "tam": [
+        0.06,
+        0.32,
+        0.06
+      ],
+      "pos": [
+        0.16,
+        0.42,
+        0.28
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz",
+      "pivote": "torso",
+      "radio": 0.12,
+      "pos": [
+        0,
+        0.42,
+        0.24
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "torso",
+      "tam": [
+        0.1,
+        0.02,
+        0.01
+      ],
+      "pos": [
+        -0.36,
+        0.3,
+        0.28
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "torso",
+      "tam": [
+        0.1,
+        0.02,
+        0.01
+      ],
+      "pos": [
+        0.36,
+        0.3,
+        0.28
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "torso",
+      "tam": [
+        0.1,
+        0.02,
+        0.01
+      ],
+      "pos": [
+        -0.36,
+        0.55,
+        0.28
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "runa",
+      "pivote": "torso",
+      "tam": [
+        0.1,
+        0.02,
+        0.01
+      ],
+      "pos": [
+        0.36,
+        0.55,
+        0.28
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "cristal_v",
+      "pivote": "torso",
+      "radio": 0.07,
+      "alto": 0.3,
+      "pos": [
+        -0.35,
+        0.92,
+        -0.1
+      ],
+      "rot": [
+        -10,
+        0,
+        25
+      ]
+    },
+    {
+      "forma": "cono",
+      "mat": "cristal_v",
+      "pivote": "torso",
+      "radio": 0.06,
+      "alto": 0.24,
+      "pos": [
+        0.32,
+        0.9,
+        -0.15
+      ],
+      "rot": [
+        -20,
+        0,
+        -30
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "cabeza",
+      "radio": 0.05,
+      "pos": [
+        0,
+        -0.04,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "metal",
+      "pivote": "cabeza",
+      "tam": [
+        0.3,
+        0.18,
+        0.26
+      ],
+      "pos": [
+        0,
+        0.08,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "vacio",
+      "pivote": "cabeza",
+      "tam": [
+        0.22,
+        0.05,
+        0.02
+      ],
+      "pos": [
+        0,
+        0.09,
+        0.13
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "cabeza",
+      "radio": 0.04,
+      "pos": [
+        0.04,
+        0.09,
+        0.13
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "hombro_i",
+      "radio": 0.05,
+      "pos": [
+        0.08,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "hombro_i",
+      "tam": [
+        0.3,
+        0.3,
+        0.32
+      ],
+      "pos": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "metal",
+      "pivote": "hombro_i",
+      "tam": [
+        0.22,
+        0.38,
+        0.22
+      ],
+      "pos": [
+        0,
+        -0.35,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "hombro_i",
+      "radio": 0.045,
+      "pos": [
+        0,
+        -0.58,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "hombro_i",
+      "tam": [
+        0.34,
+        0.36,
+        0.34
+      ],
+      "pos": [
+        0,
+        -0.82,
+        0.02
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "hombro_d",
+      "radio": 0.05,
+      "pos": [
+        -0.08,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "hombro_d",
+      "tam": [
+        0.3,
+        0.3,
+        0.32
+      ],
+      "pos": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "metal",
+      "pivote": "hombro_d",
+      "tam": [
+        0.22,
+        0.38,
+        0.22
+      ],
+      "pos": [
+        0,
+        -0.35,
+        0
+      ]
+    },
+    {
+      "forma": "esfera",
+      "mat": "luz_v",
+      "pivote": "hombro_d",
+      "radio": 0.045,
+      "pos": [
+        0,
+        -0.58,
+        0
+      ]
+    },
+    {
+      "forma": "caja",
+      "mat": "piedra",
+      "pivote": "hombro_d",
+      "tam": [
+        0.34,
+        0.36,
+        0.34
+      ],
+      "pos": [
+        0,
+        -0.82,
+        0.02
+      ]
+    }
+  ],
+  "animaciones": {
+    "quieto": {
+      "frames": 2,
+      "fps": 2,
+      "bucle": true,
+      "pistas": [
+        {
+          "pivote": "cabeza",
+          "prop": "rot_y",
+          "expr": "sin(ph)*35"
+        },
+        {
+          "pivote": "torso",
+          "prop": "pos_y",
+          "expr": "sin(ph)*0.015"
+        },
+        {
+          "pivote": "hombro_i",
+          "prop": "pos_y",
+          "expr": "sin(ph+1.5)*0.02"
+        },
+        {
+          "pivote": "hombro_d",
+          "prop": "pos_y",
+          "expr": "sin(ph)*0.02"
+        }
+      ]
+    },
+    "caminar": {
+      "frames": 4,
+      "fps": 5,
+      "bucle": true,
+      "pistas": [
+        {
+          "pivote": "pierna_i",
+          "prop": "rot_x",
+          "expr": "sin(ph)*16"
+        },
+        {
+          "pivote": "pierna_d",
+          "prop": "rot_x",
+          "expr": "-sin(ph)*16"
+        },
+        {
+          "pivote": "cadera",
+          "prop": "pos_y",
+          "expr": "abs(sin(ph))*0.03"
+        },
+        {
+          "pivote": "torso",
+          "prop": "rot_z",
+          "expr": "sin(ph)*3"
+        },
+        {
+          "pivote": "hombro_i",
+          "prop": "rot_x",
+          "expr": "-sin(ph)*10"
+        },
+        {
+          "pivote": "hombro_d",
+          "prop": "rot_x",
+          "expr": "sin(ph)*10"
+        },
+        {
+          "pivote": "cabeza",
+          "prop": "rot_y",
+          "expr": "sin(ph*0.5)*20"
+        }
+      ]
+    },
+    "atacar": {
+      "frames": 3,
+      "fps": 8,
+      "bucle": false,
+      "pistas": [
+        {
+          "pivote": "hombro_i",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -120,
+            10
+          ]
+        },
+        {
+          "pivote": "hombro_d",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -120,
+            10
+          ]
+        },
+        {
+          "pivote": "torso",
+          "prop": "rot_x",
+          "frames": [
+            0,
+            -8,
+            14
+          ]
+        },
+        {
+          "pivote": "cadera",
+          "prop": "pos_y",
+          "frames": [
+            0,
+            0.05,
+            -0.05
+          ]
+        },
+        {
+          "pivote": "cabeza",
+          "prop": "rot_y",
+          "frames": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  }
+}

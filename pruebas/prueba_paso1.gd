@@ -31,6 +31,11 @@ func _correr() -> void:
 	var terreno: TerrenoKarth = escena.get_node("Terreno")
 	var jugador: Jugador = escena.get_node("Jugador")
 	var props: Node3D = escena.get_node("Props")
+	# sin criaturas: esta prueba es solo de movimiento
+	for g in get_tree().get_nodes_in_group("guaridas_prueba"):
+		for c in (g as Guarida).vivas:
+			c.queue_free()
+		g.queue_free()
 	print("Terreno: %d m por lado, armado en %d ms; props: %d" % [terreno.lado, t_armado, props.get_child_count()])
 	_ok(terreno.lado == 512, "el terreno mide 512 m")
 	_ok(props.get_child_count() > 100, "hay props repartidos")

@@ -28,6 +28,7 @@ var _material: ShaderMaterial
 
 
 func _ready() -> void:
+	add_to_group("terreno")
 	construir()
 
 

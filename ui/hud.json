@@ -5,8 +5,32 @@
 	"margen": 24,
 	"separacion": 6,
 	"hijos": [
-		{"tipo": "barra", "tamano": [320, 18], "valor": "@jugador.vida", "max": "@jugador.vida_max", "color": "#c0392b", "texto": "Vida {jugador.vida}/{jugador.vida_max}"},
-		{"tipo": "barra", "tamano": [320, 12], "valor": "@jugador.estamina", "max": "@jugador.estamina_max", "color": "#4fbf5a"},
-		{"tipo": "texto", "estilo": "tenue", "tam": 13, "texto": "WASD mover · Shift correr · Espacio saltar · Ctrl/C esquivar · Rueda zoom · Esc soltar ratón"}
+		{
+			"tipo": "barra",
+			"tamano": [
+				320,
+				18
+			],
+			"valor": "@jugador.vida",
+			"max": "@jugador.vida_max",
+			"color": "#c0392b",
+			"texto": "Vida {jugador.vida}/{jugador.vida_max}"
+		},
+		{
+			"tipo": "barra",
+			"tamano": [
+				320,
+				12
+			],
+			"valor": "@jugador.estamina",
+			"max": "@jugador.estamina_max",
+			"color": "#4fbf5a"
+		},
+		{
+			"tipo": "texto",
+			"estilo": "tenue",
+			"tam": 13,
+			"texto": "WASD mover · Shift correr · Espacio saltar · Ctrl/C esquivar · Clic izq atacar (mantener = pesado) · Clic der bloquear · Q fijar · Esc soltar ratón"
+		}
 	]
 }
